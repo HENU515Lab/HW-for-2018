@@ -1,0 +1,66 @@
+.tp{
+    border-bottom: solid;
+    border-bottom-color: lightgray;
+    border-bottom-width: thin;
+}
+.nr
+{
+	float:left;
+	margin: 85px 300px;
+}
+.biaoti
+{
+	font-family: "微软雅黑";
+	font-size: -webkit-xxx-large;
+}
+.biaoge
+{
+	position: absolute;
+	top: 200px;
+	right:150px;
+	font-size: small;
+	border: 1px solid;
+}
+table,td
+{
+	border:1px solid;
+	border-collapse: collapse;
+}
+.classname
+{
+	width: 280px;
+}
+.tm
+{
+	position: absolute;
+	top: 140px;
+	right: 150px;
+	border: 1px solid black;
+	font-size:42px;
+	color: black;
+}
+.anniu
+{
+	border:1px solid black;
+	background: green;
+	color:white ;
+	width: 311px;
+	height: 30px;
+	position: absolute;
+	top: 600px;
+	right: 150px;
+}
+.xiaolianjie
+{
+	position: absolute;
+	top: 670px;
+	right: 150px;
+	width: 311px
+}
+.mowei
+{
+	position: absolute;
+	top: 1000px;
+	border-top: 1px solid lightgray;
+	width: 100%;
+	}

@@ -1,0 +1,226 @@
+<head>
+	<link rel="icon" type="image/x-ico" href="img/logo.ico" />
+	<title>
+		Sign in&bull;GitLab
+	</title>
+</head>
+<style>
+	a:link{text-decoration:none;/*超链接去下划线*/}
+	a:hover{text-decoration: underline;/*鼠标位于超链接上时显示下划线*/}
+	.box1 {
+		text-align:center;/*居中*/
+		position:fixed;  top:0;/*悬浮窗*/
+		width: 100%;/*盒子宽度*/
+		height: 50px;/*盒子高度*/
+		border-bottom-width: thin;/*盒子下边框宽度*/
+		border-bottom-style: solid;/*盒子下边框为实线*/
+		border-bottom-color: #BEBEBE;/*边框颜色*/
+		background-color: white;
+	}
+	.box2 {
+		float: left;/*盒子居左*/
+		text-align: left;/*左对齐*/
+		width:37%;/*盒子宽度*/
+		margin-top: 10%;margin-left: 18%;/*盒子外边距*/
+	}
+		.box2 p{color: #606060;}
+		.box2 a{font-size: 20px;color: #0000CD;}
+	.box3{
+		float: right;/*盒子居右*/
+		width: 26%;/*盒子宽度*/
+		margin-top: 10%;margin-right: 19%;/*盒子右外边距*/
+		border-width: thin;/*盒子边框宽度*/
+		border-radius: 3px;/*边框圆角像素*/
+		border-style: solid;/*盒子边框为实线*/
+		border-color: #BEBEBE;/*边框颜色*/
+		box-sizing:border-box;/*固定盒子大小*/
+	}
+	.box3 dl dt{
+		background-color: #F8F8F8;
+		margin-top:-17px;/*盒子上外边距*/
+		padding: 8px 15%;/*盒子内边距*/
+		float: left;/*元素左浮动*/
+		border-style: solid;/*盒子边框为实线*/
+		border-color: #BEBEBE;/*边框颜色*/
+		border-width: thin;/*盒子边框宽度*/
+		border-radius: 3px;/*边框圆角像素*/
+		height: 50px;/*盒子高度*/
+		width: 50%;/*盒子宽度*/
+		box-sizing:border-box;/*固定盒子大小*/
+	}
+		.box3 dl dt a:link{text-decoration:none;/*超链接去下划线*/}
+		.box3 dl dt a{font-size: 22px;color: #484848;}
+		.box3 .register{margin-left: 15px;/*左外间距*/ line-height:40px;/*行间距*/ font-size:13px;}
+		span{line-height:20px; font-size:14px; color: #909090;}
+	.box4{
+		float: left;/*盒子居左*/
+		width: 26%;/*盒子宽度*/
+		margin-top: 12px;margin-left: 55%;/*盒子外边距*/
+		border-width: thin;/*盒子边框宽度*/
+		border-radius: 3px;/*边框圆角像素*/
+		border-style: solid;/*盒子边框为实线*/
+		border-color: #BEBEBE;/*边框颜色*/
+		box-sizing:border-box;/*固定盒子大小*/
+		padding:2px;/*盒子内边距*/
+		padding-top: 10px;/*盒子顶内边距*/
+	}
+		.box4 .one{
+			float: left;/*元素左浮动*/
+			border-style: solid;/*盒子边框为实线*/
+			border-color: #BEBEBE;/*边框颜色*/
+			border-width: thin;/*盒子边框宽度*/
+			border-radius: 3px;/*边框圆角像素*/
+			height: 35px;/*盒子高度*/
+			width: 45%;/*盒子宽度*/
+			box-sizing:border-box;/*固定盒子大小*/
+			margin: 8px 2% 8px 2%;/*盒子外边距*/
+			padding: 7px 0px 7px 10px;/*盒子内边距*/
+		}
+		.box4 .two{
+			float: left;/*元素左浮动*/
+			border-style: solid;/*盒子边框为实线*/
+			border-color: #BEBEBE;/*边框颜色*/
+			border-width: thin;/*盒子边框宽度*/
+			border-radius: 3px;/*边框圆角像素*/
+			height: 35px;/*盒子高度*/
+			width: 45%;/*盒子宽度*/
+			box-sizing:border-box;/*固定盒子大小*/
+			margin: 8px 2% 8px 2%;/*盒子外边距*/
+			padding: 7px 0px 7px 10px;/*盒子内边距*/
+		}
+		.box4 .three{
+			float: left;/*元素左浮动*/
+			border-style: solid;/*盒子边框为实线*/
+			border-color: #BEBEBE;/*边框颜色*/
+			border-width: thin;/*盒子边框宽度*/
+			border-radius: 3px;/*边框圆角像素*/
+			height: 35px;/*盒子高度*/
+			width: 45%;/*盒子宽度*/
+			box-sizing:border-box;/*固定盒子大小*/
+			margin: 8px 2% 8px 2%;/*盒子外边距*/
+			padding: 7px 0px 7px 10px;/*盒子内边距*/
+		}
+		.box4 .four{
+			float: left;/*元素左浮动*/
+			border-style: solid;/*盒子边框为实线*/
+			border-color: #BEBEBE;/*边框颜色*/
+			border-width: thin;/*盒子边框宽度*/
+			border-radius: 3px;/*边框圆角像素*/
+			height: 35px;/*盒子高度*/
+			width: 45%;/*盒子宽度*/
+			box-sizing:border-box;/*固定盒子大小*/
+			margin: 8px 2% 8px 2%;/*盒子外边距*/
+			padding: 7px 0px 7px 10px;/*盒子内边距*/
+		}
+	.box5 {
+		float: left;/*盒子居左*/
+		width: 100%;/*盒子宽度*/
+		height: 50px;/*盒子高度*/
+		border-top-width: thin;/*盒子上边框宽度*/
+		border-top-style: solid;/*盒子上边框为实线*/
+		border-top-color: #BEBEBE;/*边框颜色*/
+		margin:0;/*盒子外边距*/
+		box-sizing:border-box;/*固定盒子大小*/
+		padding-left:18%;/*左内间距*/
+		padding-top: 15px;/*上内间距*/
+	}
+		.box5 a{font-size: 15px;color: #0000CD;}
+</style>
+<body>
+	<div class="box1">
+		<h1><img src="img/logo.png" width="28" height="28"></h1>
+	</div>
+	<div class="box2">
+		<h1>GitLab.com</h1>
+		<p>GitLab.com offers free unlimited (private) repositories and unlimited collaborators.</p>
+		<ul>
+				<li>
+					<a href="#">Explore projects on GitLab.com</a>(no login needed)
+				</li>
+				<li>
+					<a href="#">More information about GitLab.com</a>
+				</li>
+				<li>
+					<a href="#">GitLab.com Support Forum</a>
+				</li>
+				<li>
+					<a href="#">GitLab Homepage</a>
+				</li>
+		</ul>
+		<p>By signing up for and by signing in to this service you accept our:</p>
+		<ul>
+			<li>
+				<a href="#">Privacy policy</a>
+			</li>
+			<li>
+				<a href="#">GitLab.com Terms</a>
+			</li>
+		</ul>
+	</div>
+	<div class="box3">
+		<dl >
+			<dt>
+				<a href="#signin">Sign in</a>
+			</dt>
+			<dt>
+				<a href="#register">Register</a>
+			</dt>
+		</dl>
+		<div>
+			<div class="register">
+				<form action="#" method="post">
+				Full name<br />
+				<input type="text" name="Full name"
+					style="width:94%; height:35px; border-radius:3px; border-style:solid;border-color:#BEBEBE;border-width:thin;"/>
+					<br />
+				Username<br />
+				<input type="text" name="Username"
+					style="width:94%; height:35px; border-radius:3px; border-style:solid;border-color:#BEBEBE;border-width:thin;"/>
+					<br />
+				Email<br />
+				<input type="email" name="Email"
+					style="width:94%; height:35px; border-radius:3px; border-style:solid;border-color:#BEBEBE;border-width:thin;"/>
+					<br />
+				Email confirmatione
+				<input type="email" name="Email confirmatione"
+					style="width:94%; height:35px; border-radius:3px; border-style:solid;border-color:#BEBEBE;border-width:thin;"/>
+					<br />
+				Password
+				<input type="password" name="password"
+					style="width:94%; height:35px; border-radius:3px; border-style:solid;border-color:#BEBEBE;border-width:thin;"/>
+					<br />
+				<span>Minimum length is 8 characters</span><br />
+				<input id="a" type="checkbox" name="a" value="a" />
+                    <label for="a">I accept the</label> <a href="#">Terms of Service and Privacy Policy</a><br />
+                <input id="b" type="checkbox" name="b" value="b" />
+                    <label for="b">I'd like to receive updates via email about GitLab.</label>
+                <input type="button" name="Register" value="Register" 
+                	style="background-color:#1aaa55; color:#F8F8F8; width:94%; height:40px; 
+                	border-radius:3px; border-style:solid;border-color:#BEBEBE;border-width:thin;"/>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="box4">
+		&nbsp;&nbsp;Sign in with<br />
+		<div class="one">
+			<img src="img/Google.png" style="height: 100%;"/>&nbsp;&nbsp;Google
+		</div>
+		<div class="two">
+			<img src="img/Twitter.png" style="height: 100%;"/>&nbsp;&nbsp;Twitter
+		</div>
+		<div class="three">
+			<img src="img/GitHub.png" style="height: 100%;"/>&nbsp;&nbsp;GitHub
+		</div>
+		<div class="four">
+			<img src="img/Bitbucket.png" style="height: 100%;"/>&nbsp;&nbsp;Bitbucket
+		</div>
+		&nbsp;&nbsp;<input id="1" type="checkbox" name="1" value="1"/>
+			<label for="1">Remember me</label>
+	</div>
+	<div class="box5">
+		<a href="#">Explore</a>&nbsp;&nbsp;
+		<a href="#">Help</a>&nbsp;&nbsp;
+		<a href="#">About GitLab</a>
+	</div>
+</body>

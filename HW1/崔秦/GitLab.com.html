@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Sign in Gitlab</title>
+		<link type="text/css" rel="stylesheet" href="css/GitLab.css" />
+	</head>
+	<body>	
+	<div>
+		<h1 id="start";>
+			<img src="images/111.png" alt="GitLab的logo">
+		</h1>
+		<p id="starts">==============================================================================================================================================================================</p>
+	</div>
+	<div id="content">
+	<div id="txt">
+		<h1>GitLab.com</h1>
+		<p>
+			GitLab.com offers free unlimited(private) repositories
+			and unlimited collaborators.
+		</p>
+		<ul>
+			<li>
+				<a href="https://gitlab.com/explore/projects/trending" target="_blank" style="color: steelblue;"> 
+					Explore projects on
+				</a>(no login needed)
+			</li>
+			<li>
+				<a href="https://about.gitlab.com/pricing/#gitlab-com" target="_blank" style="color: steelblue;">
+					More information about GitLab.com
+				</a>
+			</li>
+			<li>
+				<a href="https://gitlab.com/gitlab-com/support-forum/issues" target="_blank" style="color: steelblue;">
+					GitLab.com Support Forum
+				</a>
+			</li>
+			<li>
+				<a href="https://about.gitlab.com/" target="_blank" style="color:steelblue;">
+					GitLab Homepage
+				</a>
+			</li>
+		</ul>
+		<p>
+			By signing up for and by signing in to this service you accept our:
+		</p>
+		<ul class="b">
+			<li>
+				<a href="https://about.gitlab.com/privacy/" target="_blank" style="color:steelblue;">
+					Privacy policy
+				</a>
+			</li><!--设置color元素改变不了元素？-->
+			<li>
+				<a href="https://about.gitlab.com/terms/#gitlab_com" target="_blank" style="color: steelblue;">
+					GitLab.com Terms.
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div>
+		<h2>
+			<span class="xx">
+				Sign in
+			</span>
+			<span class="xy">
+				Register
+			</span>
+		</h2>
+	</div>
+	<div id="sign">
+		<form action="http://www.gitlab.com/register.php"method="post" class="form">
+			Full name:<br />
+			<input type="text" name="Full name" title="This field is required."style="width: 340px;height: 34px;"/><br />
+			Use name:<br />
+			<input type="text" name="Use name" title="Please create a username with only alphanumeric characters."style="width: 340px;height: 34px;"/><br />
+			Email:<br />
+			<input type="email" name="Email" title="Please provide a valid email address."style="width: 340px;height: 34px;"/><br />
+			Email confirmation:<br />
+			<input type="email" name="Email confirmation" title="Please retype the email address."style="width: 340px;height: 34px;"/><br />
+			Password:<br />
+			<input type="password" name="Password" title="Minimum length is 8 characters."style="width: 340px;height: 34px;"/><br />
+			<span id="a">
+				Minimum length is 8 characters
+			</span><!-- 这部分直接用style元素修饰更直观？虽然不适应于多个页面的同时修饰 -->
+		</form>
+		<p id="b">
+			<input type="checkbox" name="extras[]" value="oa"/>
+				I accept the 
+			<a href="https://gitlab.com/-/users/terms" style="color: steelblue;">
+				Terms of Service and Privacy Policy
+			</a><br />
+			<input type="checkbox" name="extras[]" value="ob"  checked="checked"/>
+				I'd like to receive updates via email about GitLab.
+		</p>
+		<p>
+			<input type="submit" value="Register"id="submit" title="Please baidu!^-^"/><br />
+		</p>
+	</div>
+	<div id="signs">
+		Sign in with<br />
+		<a href="https://gitlab.com/users/auth/google_oauth2">
+			<button type="button"style="width: 168px;height:38px ;background:url(images/4.png);border-color: lightgray;cursor: pointer;">
+			</button>
+		</a>
+		<a href="https://gitlab.com/users/auth/twitter">
+			<button type="button"style="width: 168px;height:38px ;background:url(images/5.png);border-color: lightgray;cursor: pointer;">
+			</button><br />
+		</a>
+		<a href="https://gitlab.com/users/auth/github">
+			<button type="button"style="width: 168px;height:38px ;background:url(images/3.png);border-color: lightgray;cursor: pointer;">
+			</button>
+		</a>
+		<a href="https://gitlab.com/users/auth/bitbucket">
+			<button type="button"style="width: 168px;height:38px ;background:url(images/2.png);border-color: lightgray;cursor: pointer;">
+			</button><br />
+		</a>
+		<input type="checkbox" name="extras[]" value="oc"/>
+			Remember me
+		<!-- 这里设置class或者id元素好像更麻烦 -->
+	</div>
+	</div>
+	<div id="footer">
+		<p>
+			<a class="z" href="https://gitlab.com/explore" target="_blank" style="color: steelblue;">
+				Explore
+			</a> 
+			<a class="z" href="https://gitlab.com/help" target="_blank" style="color: steelblue;"> 
+				Help
+			</a>
+			<a class="z" href="https://about.gitlab.com/" target="_blank" style="color: steelblue;word-spacing: normal;">
+				About GitLab
+			</a>
+		</p>
+	</div>
+	</body>
+</html>

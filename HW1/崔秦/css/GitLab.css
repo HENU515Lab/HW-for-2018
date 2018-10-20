@@ -1,0 +1,148 @@
+body{
+	margin: 0%;
+	height: 100%;
+	font-family:sans-serif;
+	line-height: 1.5em;
+}
+#txt{
+	font-weight: 400;
+	font-size: 15px;
+	height: 800;
+	width: 485px;
+	top: 122px;
+	left: 0px;
+	right: 870px;
+	bottom: 64px;
+	position: absolute;
+	z-index: 1;
+	padding: 10px;
+	padding-left: 482px;
+}
+h1{
+	font-weight: normal;	
+}
+p{
+	color: dimgrey;
+}
+a:link{/*链接状态*/
+	color: steelblue;
+	text-decoration: none;
+	font-weight: 800;
+}
+a:hover{/*选中链接后的状态*/
+	text-decoration: underline;
+}
+a.z{
+	font-weight: 400;
+}
+#start img{
+	text-decoration: underline;
+}
+#start{
+	left: 50%;
+	height: 1px;
+	background-color: black;
+	z-index: 999;
+}
+#starts{
+	background-color:white;
+	margin-left:0%;
+	height: 35px;
+	border-bottom: thin lightgray solid;
+	color: white;
+}
+#start,#starts{
+	position: fixed;
+	margin: 0 auto;
+}
+#sign{
+	align-content: center;
+	height: 540px;
+	top: 174px;
+	left: 1044px;
+	right: 512px;
+	bottom: 270px;
+	line-height:30px;
+}
+#signs{
+	height: 176px;
+	top: 730px;
+	left: 1044px;
+	right: 517;
+	bottom: 72px;
+	line-height: 40px;
+	color: black;
+	font-size: small;
+}
+#signs,#sign{/*采用绝对位置布局和原网页不一样（我哭*/
+	position: absolute;
+	border: 1px;
+	border-style: solid;
+	border-color: lightgray;
+	border-width: thin;
+	padding-left: 12px;
+	width: 360px;
+}
+#last{
+	font-size: 90%;
+	line-height: normal;
+}
+#footer{
+	position: absolute;
+	height: 66px;
+	width: 1415px;
+	top: 906px;
+    border: lightgray solid 1px;
+	padding-left: 482px;
+	padding-right: 0px;
+	font-size:80% ;
+	word-spacing: 1.5em;
+}
+.form{
+	font-weight:500;
+	font-size: small;
+}
+#a{
+	font-size: small;
+	font-weight:500;
+	color: darkgray;
+}
+#b{
+	color: black;
+	font-size: small;
+}
+span.xx{
+	color: darkgrey;
+	left: 1044px;
+	right: 692px;
+	background-color: #fafafa;
+}
+span.xy{
+	border-bottom-color: blue ;
+	left: 1230px;
+	right: 505px;
+}
+span.xx,span.xy{
+	font-size:18px ;
+	font-weight: 600;
+	border: 1px;
+	border-spacing: 0px;
+	border-color: lightgray;
+	border-style: solid;
+	z-index: 1;
+	font-weight: 500;
+	line-height: 50px;
+	position: absolute;
+	bottom: 734px;
+	top: 127px;
+	height:45px;
+	text-align: center;
+	width: 185px;
+}
+#submit{
+	width: 340px;
+	height: 32px;
+	background-color:#1AAA55;
+	color: white;
+	cursor: pointer;
+	}
