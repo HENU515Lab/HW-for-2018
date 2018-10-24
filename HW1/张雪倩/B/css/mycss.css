@@ -1,0 +1,76 @@
+
+a{ text-decoration:none} 
+#header{
+	 line-height:30px;
+    height:30px;
+    width:100%;
+    padding:0px;	      
+}
+#left{
+	position:absolute;
+	left:300px;
+	width:500px;
+	top:100px
+}
+#right {
+	position:absolute;
+	left:800px;
+	width:200px;
+	top:100px
+}
+
+.headhr{
+	height:1px;
+	border:none;
+	border-top:1px solid #e0e0e0
+	}
+.rtable{
+	
+	 border-collapse:collapse;
+	 width:400
+}
+.rtable th{
+	
+	width:200; 
+	height:50
+}
+.inp{
+	height:30px;
+	border-radius: 5px;
+	width:350px
+}
+.sub{
+	width:300px;
+	height:50px;
+	color:white;
+	font-size:22;
+	background:#168f48;
+	border-radius: 5px;
+	border-style:soild;
+	border-color:#168f48 
+}
+.btn{
+	height:30px;
+	width:150px;
+	background:#ffffff;
+	border-style:inset;
+	border-radius: 5px;
+	border-color:deepskyblue
+}
+.img{
+	align:left;
+	height:20px ;
+	width:20px
+}
+.bul{
+	position:absolute; 
+	top:650px;
+	width:100%
+}
+.bhr{
+	height:1px;
+	border:none;
+	border-top:1px solid #e0e0e0;
+}
+body{font-family:"Trebuchet MS";}
+.first{font-size:14px;color:#666}
