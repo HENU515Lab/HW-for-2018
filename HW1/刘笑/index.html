@@ -1,10 +1,72 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<title></title>
-	</head>
-	<body>
-		
-	</body>
+<head>
+  <title>Foundation 实例</title>
+  <link type="text/css" href="css/1.css" rel="stylesheet" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/foundation/5.5.3/css/foundation.min.css">
+  <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/foundation/5.5.3/js/foundation.min.js"></script>
+  <script src="https://cdn.staticfile.org/foundation/5.5.3/js/vendor/modernizr.js"></script>
+  <style>
+  	.b1{width: 181px; height: 50px;
+  	text-align: center;
+  	border-radius:1px;
+    border: 1px solid gainsboro;
+  	cursor: pointer;}
+  	.b1:hover
+  	{background-color: #E7E7E7;
+  	color: #000000;
+  	border-bottom: 3px solid #A9A9A9;}
+  </style>
+</head>
+<body>
+	<div class="div1">
+<ul class="tabs" data-tab="">
+  <li class="tab-title"><a href="#home" class="b1" aria-selected="false" tabindex="-1">
+  	Sign in</a></li>
+  <li class="tab-title active"><a href="#menu1" class="b1" aria-selected="false" tabindex="-1">
+  	Register</a></li>
+</ul>
+<div class="tabs-content">
+  <div class="content" id="home" aria-hidden="true" tabindex="-1">
+<div class="a4"></div>
+  </div>
+  <div class="content active" id="menu1" aria-hidden="true" tabindex="-1">
+                <div class="div7">
+		 <form action="https://gitlab.com/users/sign_in">
+		 Full name<br/>
+		 <input type="text" name="Full name" class="a1">
+		 Username<br/>
+		 <input type="text" name="user" class="a1">
+		 Email<br/>
+		 <input type="text" name="Email" class="a1">
+		 Email confirmation<br/><br/>
+		 <input type="text" name="Email confirmation" class="a1">
+		 Password<br/>
+		 <input type="password" name="password" class="a1">
+		 <p id="para1">Minimum length is 8 characters</p>
+		 <input type="checkbox" name="vehicle" value="Policy">I accept the
+		 	<a href="https://gitlab.com/-/users/terms" class="a3">
+		 		 Terms of Service and Privacy Policy</a><br />
+    <input type="checkbox" name="vehicle" value="Gitlab">
+    I'd like to receive updates via email about GitLab.<br />
+		<input type="submit" value="Register" class="a2">
+		</form>       
+		    	</div> 
+  </div>
+</div>
+​
+
+​    </div>
+​
+<!--初始化 Foundation JS -->
+<script>
+$(document).ready(function() {
+    $(document).foundation();
+})
+</script>
+</body>
 </html>
+​
