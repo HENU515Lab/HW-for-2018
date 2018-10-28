@@ -1,0 +1,156 @@
+.signinbtn
+{
+    background-color: white;/*背景色*/
+    border: 1px solid;/*1像素 单边框*/
+    color: black;/*字体颜色*/
+    padding: 20px 70px;/*框内距文本距离*/
+    text-align: center;/*文本居中*/
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;/*字体大小*/
+    margin: 0px 0px;/*框外距离*/
+    cursor: pointer;/*光标变成一只手*/
+    border-radius: 3px;/*圆角程度 像素值越大越大*/
+    float: left;
+    border-color: gainsboro;
+    box-shadow: 1px 2px 1px gray; 
+}
+
+.registerbtn
+{
+    background-color: white;
+    border: 1px solid;
+    color: black;
+    padding: 20px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px;
+    cursor: pointer;
+    border-radius: 4px;
+    float: left;
+    border-color: gainsboro;
+    box-shadow: 1px 2px 1px gray; 
+}
+.signinbtn:hover/*按下*/
+{
+	background-color: gainsboro;/*按下灰色*/
+}
+.registerbtn:hover
+{
+	background-color: gainsboro;
+}
+.UandP
+{
+	border: 1px solid;
+	width: 352px;
+	float: left;
+	padding: 13px 15px;
+	border-radius: 2px;
+	border-color: gainsboro;
+	text-align: center;
+	box-shadow: 1px 2px 1px gray; 
+}
+.username
+{
+	width: 335px;
+	border: 1px solid #ccc; 
+    padding: 7px 0px;
+    border-radius: 3px;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+.password
+{
+	width: 335px;
+	border: 1px solid #ccc; 
+    padding: 7px 0px;
+    border-radius: 3px;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+input:focus/*点击发光特效*/
+{
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+}
+.RM
+{
+	float: left;
+}
+
+.FYP
+{
+	float: right;
+	
+}
+.sibtn
+{
+	width: 335px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 130px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.word
+{
+	float: left;
+	margin-left: 8px;
+}
+.GTGB
+{
+	border: 1px solid;
+	width: 352px;
+	margin-top: 14px;
+	float: left;
+	padding: 13px 15px;
+	border-radius: 2px;
+	border-color: gainsboro;
+	text-align: center;
+	box-shadow: 1px 2px 1px gray; 
+}
+
+.siw
+{
+	float: left;
+	margin-left: 8px;
+}
+.btn
+{
+	background-color: white;
+    border: 1px solid;
+    width: 160px;
+    color: black;
+    padding: 10px;
+    text-align: left;
+    padding-left: 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    float: left;
+    border-color: gainsboro;
+}
+#btn1
+{
+	margin-right: 15px;
+}
+#btn3
+{
+	margin-right: 15px;
+}
+.btn:hover
+{
+	background-color: gainsboro;/*按下灰色*/
+}

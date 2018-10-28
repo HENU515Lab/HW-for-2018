@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="tanuki-logo" viewBox="0 0 36 36" width="24" height="24">
+  <path class="tanuki-shape tanuki-left-ear" fill="#e24329" d="M 2 14 l 9.38 9 v -9 l -4 -12.28 c -0.205 -0.632 -1.176 -0.632 -1.38 0 Z" />
+  <path class="tanuki-shape tanuki-right-ear" fill="#e24329" d="M 34 14 l -9.38 9 v -9 l 4 -12.28 c 0.205 -0.632 1.176 -0.632 1.38 0 Z" />
+  <path class="tanuki-shape tanuki-nose" fill="#e24329" d="M 18 34.38 L 3 14 L 33 14 Z" />
+  <path class="tanuki-shape tanuki-left-eye" fill="#fc6d26" d="M 18 34.38 L 11.38 14 L 2 14 L 6 25 Z" />
+  <path class="tanuki-shape tanuki-right-eye" fill="#fc6d26" d="M 18 34.38 L 24.62 14 L 34 14 L 30 25 Z" />
+  <path class="tanuki-shape tanuki-left-cheek" fill="#fca326" d="M 2 14 L 0.1 20.16 c -0.18 0.565 0 1.2 0.5 1.56 l 17.42 12.66 Z" />
+  <path class="tanuki-shape tanuki-right-cheek" fill="#fca326" d="M 34 14 l 1.9 6.16 c 0.18 0.565 0 1.2 -0.5 1.56 L 18 34.38 Z" />
+</svg>
