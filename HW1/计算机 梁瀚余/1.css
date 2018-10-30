@@ -1,0 +1,62 @@
+.tm
+{font-size: 45px;
+	border:1px solid;
+	position: absolute;
+	right:68px;
+	top:20px;
+	
+}
+table,td
+{width: 310px;
+	height: 30px;
+	border:1px solid;
+	border-collapse: collapse;
+}
+.biaoge
+{
+	border:1px solid;
+	position: absolute;
+	right: 68px;
+	top: 20px;
+	height: 250px;
+	width: 310px;
+}
+.lianjie{
+	position: absolute;
+	left: 0px;
+	top: 30;
+	
+}
+.biaoge2{font-size: 45px;
+border: 1px solid;
+	position: absolute;
+	right:65px;
+	top: 280px;
+}
+.zhiti{
+	font-size: 19px;
+}
+.biaoge3{
+	border: solid;
+	background-color:darkgreen;
+	position: absolute;
+	top: 250px;
+	right: 68px;
+	width: 310px;
+}
+.biaoge4{border: solid;
+	position: absolute;
+	top: 170px;
+	font-size: 20px;
+	width: 310px;
+	right: 1px;
+}
+.biaoge5{position: absolute;
+
+left: 100px;
+	
+}
+.biaoge6{position: absolute;
+top: 500px;
+left: 80px;
+}

@@ -1,0 +1,151 @@
+*{margin: 0;}
+.top{
+	margin-top: -80px;
+	width:100%;
+	height:60px;
+	position:fixed;
+	border-bottom: 1px solid #F0F0F0;
+	background-color: #fff;
+	z-index: 3;
+}
+.logo{
+	width:30px; 
+	height:30px;
+	position:fixed;
+	left:600px;
+}
+.body{
+	width: 1000px;
+	height: 501px;
+	margin:80px 0 0 100px;
+	padding: 5px;
+}
+.body-left{ 
+	width:540px;
+	height:490px;
+	float:left;
+	margin: 0 0 0 20px;
+}
+.body-left h1{
+	color: black;
+}
+.body-left ul{
+	margin-left: 40px;
+	line-height: 180%;
+}
+.link{
+	text-decoration: none;
+}
+.body-right{
+	border: 1px solid #E5E5E5;
+	width:370px;
+	height:250px;
+	margin:0 0 0 10px;
+	padding: 13px;
+	border-radius:5px;
+	float: left;
+	font-size: 13;
+}
+.Singn,.Register{
+	border: 1px solid #E5E5E5;
+	width: 100px;
+	height: 30px;
+	padding: 20px 40px 10px 40px;
+	border-radius:3px;
+	float:left;
+	font-size: 16px;
+	font-weight: 530;
+	cursor: pointer;
+}
+.input{
+	line-height: 180%;
+}
+.in{
+	width: 370px;
+	height: 30px;
+	border: 1px solid #DFDFDF;
+}
+.intwo,.forgot{
+	font-size: 13px;
+}
+.submit{
+	height: 35px;
+	width: 370px;
+	border-radius:5px;
+	margin-top: 20px;
+	background-color: #19A351;
+	color: #FFFFFF;
+}
+.forgot{
+	margin-left: 95px;
+	text-decoration: none;
+}
+.body-righttwo{
+	width:363px;
+	height:176px;
+	margin:18px 0 0 10px;
+	float: left;
+	border: 1px solid #E5E5E5;
+	padding: 17px;
+	border-radius:5px;
+	line-height: 200%;
+}
+.bottom{
+	border: 1px solid #E5E5E5;
+	width: 100%;
+	height: 35px;
+	padding: 12px;
+}
+.bottom2{
+	width: 1000px;
+	height: 31px;
+	margin: 2px 0 0 100px;
+	padding: 10px;
+}
+.inbottom{
+	margin-left: 10px;
+}
+.smalllogo{
+	width: 17px;
+	height: 17px;
+}
+.fourlogos{
+	border: 1px solid #E5E5E5;
+	display: block;
+	width: 150px;
+	height: 30px;
+	border-radius:3px;
+	margin-left: 20px;
+	float: left;
+	padding: 4px;
+	margin-top: 10px;
+	text-decoration: none;
+}
+.body-righttwo p{
+	font-size: 13;
+	font-weight: 550;
+}
+.inbottom{
+	text-decoration: none;
+}
+a.link:hover{
+	text-decoration: underline;
+}
+a.inbottom:hover{
+	text-decoration: underline;
+}
+a.fourlogos:hover{
+	background-color: #E3E3E3;
+}
+a.link{
+	color: #1B69B6;
+}a.inbottom{
+	color: #1B69B6;
+	font-size: 13;
+	font-weight: 350;
+}
+a.fourlogos{
+	color: #000000;
+	font-weight: 350;
+	font-size: 13;
+}
