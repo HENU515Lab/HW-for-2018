@@ -1,0 +1,83 @@
+div		{border: 1px solid 
+        color:gainsboro;
+		background-color: white;
+		position: absolute;}
+	#div2{
+		border: white;
+		position: fixed;
+		 top:0px;
+		 width:100%;
+     	 height:40px;
+		background-color:white;>
+		background-attachment:fixed ;
+		z-index: 11;
+		}
+	#div3{
+		border:white ;
+		top: 90px;
+         left: 288px;
+        width: 540px;
+        }
+	#div4{
+		border: 1px solid gainsboro;		
+		background-color: white;
+		position: absolute;
+		top:730px;
+		bottom: 70px;
+		left:850px;
+		width: 375px;
+		height: 180px;"
+		}
+	#div5{border:1px solid;
+	     border-color: darkgrey;
+		style=position: absolute;
+			top: 125px;
+			left:850px;			
+			width: 375px;
+			height: 588px;
+	}
+	#div6{
+		style=position: absolute;
+		    top:125px;
+		    left: 860px;
+		    width:20px;
+		    height: 588px;
+	}
+	#div7{position: absolute;
+	     top: 900px;
+	     width: 100%;
+	     height: 80px;}
+button	{width: 170px;
+	    height:36px;
+	    background-color: white}
+    .button1{               	
+        position: absolute;
+        top:40px;
+        left: 14px;
+        }
+    .button2{
+    	position: absolute;
+    	top:40px;
+    	left:190px;
+   		}
+   	.button3{
+   		position: absolute;
+   		top:90px;
+   		left: 14px;
+   	   	}
+   	.button4{
+   		position: absolute;
+   		top:90px;
+   		left:190px;
+   	}
+  
+   #p1{font-size: 19px;}
+   #p2{font-size: 14px;
+       color: grey;}
+   #p3{font-size: 12px;}   
+   #p4{font-size: 12px;}
+	style{}
+			a:link {color:#6666ff;}      /* 未访问链接*/
+			a:visited {color:#6666ff;}  /* 已访问链接 */
+			a:hover {color: #1a52ff;}  /* 鼠标移动到链接上 */
+			a:active {color: #1a52ff;}  /* 鼠标点击时 */

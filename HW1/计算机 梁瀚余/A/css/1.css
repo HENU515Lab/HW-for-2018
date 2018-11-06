@@ -1,0 +1,123 @@
+.yidong1 {
+	background: url(unsplash-software-team.png);
+	position: absolute;
+	font-size: 18px;
+	top: 0px;
+	width: 2200px;
+	height: 800px;
+	left: 0px;
+}
+
+.yidong2 {
+	position: absolute;
+	left: 200px;
+	top: 0px;
+}
+
+.beijin1 {
+	opacity: 0.5;
+}
+
+body {
+	background-size: auto;
+	100px
+}
+
+.yidong3 {
+	position: absolute;
+	top: 180px;
+	left: 200px;
+}
+
+.yidong4 {
+	position: absolute;
+	top: 180px;
+	left: 700px;
+}
+
+.caidai1 {
+	border: 0px;
+	height:30px ;
+	width: 200px;
+	background-color: crimson;
+}
+
+.yidong5 {
+	position: absolute;
+	top: 1000px;
+	left: 200px;
+}
+
+.heibu {
+	position: absolute;
+	top: 0px;
+	height: 800px;
+	width: 2200px;
+	background-color: black;
+}
+
+.yidong6 {
+	position: absolute;
+	top: 1000px;
+	left: 600px;
+}
+
+.yidong7 {
+	position: absolute;
+	top: 1000px;
+	left: 1000px;
+}
+.yidong8{background-color: blueviolet;
+	width: 2200px;
+	height: 800px;
+	position: absolute;
+	top: 1900px;
+	
+}
+.yidong9{position: absolute;
+top: 200px;
+left:140px;
+	
+}
+.zi1{
+	position: absolute;
+	top: 260px;
+	left: 140px;
+}
+.zi2{position: absolute;
+top: 7px;
+left: 210px;
+	
+}
+.zi3{
+	position: absolute;
+	top: 7px;
+	left: 380px;
+}
+.zi4{
+	position: absolute;
+	top: 7px;
+	left: 600px;
+}
+.zi5{border: 0;
+width: 100px;
+	position: absolute;
+	top: 7px;
+	left: 730px;
+}
+.yidong10{position: absolute;
+top: 1400px;
+left: 200px;
+	
+}
+.beijin2{background-color: #8A2BE2;
+}
+.yidong11{position: absolute;
+
+	left: 500px;
+	top: 50px;
+}
+.tupian1{
+	position: absolute;
+	left: 600px;
+}

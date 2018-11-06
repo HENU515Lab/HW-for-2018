@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The first single application for the entire DevOps lifecycle - GitLab | GitLab </title>
+    <link type="image/x-icon" rel="shortcut icon" href="images/favicon-16x16.ico" />
+    <link rel="stylesheet" href="css/gyg.css" />
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body><!--顶部导航栏开始-->
+    <div class="header">
+        <div class="inner">
+            <div class="logo"><!--左侧浮动开始-->
+                <a href="http:/www.baidu.com"><img src="images/head.png" width="114px" height="38px" /></a>
+            </div><!--左侧浮动结束-->
+            <div class="nav"><!--导航栏右浮动-->
+                <ul>
+                    <li class="first">
+                        <a href="#">Why GitLab?</a>
+                        <div class="dropdown-1">
+                            <a href="#">Product</a>
+                            <a href="#">Solutions</a>
+                            <a href="#">Services</a>
+                            <a href="#">DevOps lifecycle</a>
+                            <a href="#">DevOps tools</a>
+                            <a href="#">Is it any good?</a>
+                            <a href="#">Get started</a>
+                        </div>
+                    </li>
+                    <li class="second">
+                        <a href="#">Resources</a>
+                        <div class="dropdown-2">
+                            <a href="#">Blog</a>
+                            <a href="#">Newsletter</a>
+                            <a href="#">Events</a>
+                            <a href="#">Training</a>
+                            <a href="#">Docs</a>
+                            <a href="#">Install</a>
+                        </div>
+                    </li>
+                    <li class=third>
+                        <a href="#">Community</a>
+                        <div class="dropdown-3">
+                            <a href="#">Customers</a>
+                            <a href="#">Contribute</a>
+                            <a href="#">Partners</a>
+                            <a href="#">Explore repositories</a>
+                            <a href="#">Source code</a>
+                            <a href="#">Shop</a>
+                            <a href="#">Direction</a>
+                        </div>
+                    </li>
+                    <li class>
+                        <a href="#">Supprt</a>
+                    </li>
+                    <li class="fifth">
+                        <a href="#">Pricing</a>
+                        <div class="dropdown-5">
+                            <a href="#">Free trial</a>
+                            <a href="#">Self-managed</a>
+                            <a href="#">GitLab.com</a>
+                        </div>
+                    </li>
+                    <li class="sixth">
+                        <a href="#">Company</a>
+                        <div class="dropdown-6">
+                            <a href="#">About us</a>
+                            <a href="#">Jobs</a>
+                            <a href="#">Culture</a>
+                            <a href="#">Press</a>
+                            <a href="#">Analyst Relations</a>
+                            <a href="#">Handbook</a>
+                            <a href="#">Strategy</a>
+                            <a href="#">Terms</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/sousuo.png" width="40px" height="56px" class="search"/>
+                    </li>
+                    <div class="dh">
+                        <li>
+                            <a href="#">Sign in</a> 
+                        </li>
+                        <li>
+                            <a href="#">Register</a>
+                        </li>
+                    </div>
+                </ul>
+            </div><!--右侧浮动结束-->
+        </div>
+        <div class="searcha">
+            <input id="sear">
+        </div>
+    </div>
+    <!--顶部导航栏结束-->
+    <div id="wrap"><!--轮播图开始-->
+        <div class="banner">
+            <div class="banner-img">
+                <img src="images/1.png" width="100%" height="640px" alt="轮播图1">
+            </div>
+            <div class="hz">
+                <div class="insl">
+                    <a href="#"><img src="images/gruver-cover_2x.jpg" width="280px" height="420px" id="jpg"/></a>
+                </div>
+                <div class="insr">
+                    <a href="#" id="h">Starting and Scaling DevOps in the Enterprise</a><br><br>
+                    <p>
+                        Sharing his pioneering insight on how organizations can transform their software development and delivery processes, Gary Gruver provides a tactical framework to implement DevOps principles.
+                    </p>
+                    <a href="#" id="p">Download the book</a>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="banner-img">
+                <img src="images/2.png" width="100%" height="640px" alt="轮播图2">
+            </div>
+        </div>
+        <div class="banner">
+            <div class="banner-img">
+                <img src="images/3.png" width="100%" height="640px" alt="轮播图3">
+            </div>
+        </div>
+        <div class="banner">
+            <div class="banner-img">
+                <img src="images/4.png" width="100%" height="640px" alt="轮播图4">
+            </div>
+        </div>
+        <div class="banner">
+            <div class="banner-img">
+                <img src="images/5.png" width="100%" height="640px" alt="轮播图5">
+            </div>
+        </div>
+        <div class="tab">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="prev"><img src="images/arrow-left-alt.svg" width="30px" height="30px" class="img"></div>
+        <div class="next"><img src="images/arrow-right-alt.svg" width="30px" height="30px" class="img"></div>
+    </div>
+    <script>    //总体注释，下面所说的选图按钮皆为span 效果即是选图按钮背景色变为白色，j跑一边全程的意思是给每个span都选中，
+        var Body = document.getElementsByTagName("body")[0];//接上边的总体注释，目的是为了清除效果，并筛选出当前的图的序号0-4
+        var Banner = document.getElementsByClassName("banner");//接上边的总体注释，，并且全局都同步num，使得自动轮播能从当前显示的图片开始
+        var Span = document.getElementsByClassName("tab") [0].getElementsByTagName("span");
+        var Next = document.getElementsByClassName("next")[0];
+        var prev = document.getElementsByClassName("prev")[0];
+        var on = document.getElementsByClassName("on")[0];     //声明变量 获取各个变量
+        Banner[0].style.display = "block";     //初始化 第0张图片显示，即第一张图片
+        Span[0].className = "on";      //第0个，即第一个个下边的选图按钮显示白色背景
+        var num = 0;   //全局变量初始化
+        for(var i = 0;i < Span.length;i++){   //设置for循环，当i小于选图按钮个数时i递增
+            Span[i].index = i;  //给每一个选图按钮一个索引，即按照选图按钮的顺序（在html的顺序）给每个按钮赋值，使一个按钮对应一张图
+            Span[i].onclick = function(){  //设置函数，点击下边的选图按钮进行切换图片
+                for(var j = 0 ;j < Span.length; j++){   //给j跑一边全程，选中所有选图按钮
+                num = this.index;     //给全局变量的值设为选图按钮或者说是图片对定的序号的值，达到同步的效果
+                Span[j].className = "";  //去掉所有选图按钮的效果
+                Banner[j].style.display = "none";   //去掉所有图片的透明的即使其他图片隐藏
+                }
+            Span[num].className = "on";    //给当下选图按钮效果
+            Banner[num].style.display = "block";   //给当下选图按钮对应的图片的透明度设置为不透明，从而显示该图
+            }
+            Next.onclick = function(){     //切换到下一张图的函数
+                for(var j = 0 ;j < Span.length; j++){     //给j跑一遍全程，选中所有选图按钮
+                if(Span[j].className == "on"){
+                    Span[j].className = "";
+                    Banner[j].style.display = "none";    //如果当前的选图按钮有效果，就去掉该效果，并且使该图片不显示,同时选中了显示的图片的序号
+                    j++;  //j+1，为轮播下一张图做准备
+                    num++;    //给全局变量同步图片的序号，从而实现从此图开始自动挡轮播
+                    if(j > 4){
+                    j = 0;    //判断j是否大于四 显然四不大于四(即播放到第五张图片的时候)，那么给j赋值为0即第一张图片的序号，从而实现循环
+                    }
+                    Span[j].className = "on"; //给下一张图的选图按钮类名，让他有换背景色的效果
+                    Banner[j].style.display = "block";  //同时使下一张图透明度为不透明即显示
+                    }
+                }
+            }
+            prev.onclick = function(){  //切换到前一张的函数，与切换到上一张图片类似，只不过变成了j--
+                for(var j = 0 ;j < Span.length; j++){   //让j跑一边全程，把所有选图按钮都选中
+                    if(Span[j].className == "on"){
+                        Span[j].className = "";
+                        Banner[j].style.display = "none";  //清除当前图片的透明度以及选图按钮的效果，同时选中了显示的图片的序号
+                        j--;    //j-1，对应着上一张图
+                        num--;  //给全局变量num同步对应的图片的序号，从而实现从此图开始自动挡轮播
+                        if(j < 0){  //此处应判断j是否小于0，当j小于零时，j等于4显示最后一张图
+                        j = 4;
+                        }
+                    Span[j].className = "on";
+                    Banner[j].style.display = "block";  //使下一张图显示，并且下一张图对应的选图按钮有效果
+                    }
+                }
+            }  
+        }
+        function Time(){    //设置定时器运行的函数
+            num++;
+            if(num < 5){
+                for(var j = 0 ;j < Span.length; j++){   //j跑一边全程，选中所有按钮
+                Span[j].className = "";
+                Banner[j].style.display = "none";  //使所有图隐藏，所有选图按钮无效果
+                }
+                Span[num].className = "on";
+                Banner[num].style.display = "block";    //给第num张图显示，给他对应的选图按钮效果
+            }else {
+                num = -1;
+            }   //当图片到最后一张时将num这个全局变量设置为-1，使图片从新循环，不能将-1写为0，否则第一张图不会显示，直接被跳过
+        }
+        var timer = setInterval("Time()",9000);//实现自动换图
+    </script>
+    <!--轮播图结束-->
+    <!--介绍部分开始-->
+    <div class="container">
+        <div class="inside">
+            <div class="internal-1">
+                <img src="images/01.PNG" width="100px" height="115px"/>
+                <h3>Visible</h3><br>
+                <p class="dl">See everything that matters</p>
+                <ul>
+                    <li class="js">Stay in your flow</li>
+                    <li class="js">Don’t wait on syncing</li>
+                    <li class="js">Manage projects, not tools</li>
+                    <li class="js">Improve cycle time.</li>
+                </ul>
+            </div>
+            <div class="internal-2">
+                <img src="images/02.PNG" width="100px" height="115px"/>
+                <h3>Efficient</h3><br>
+                <p class="dl">Collaborate without waiting</p>
+                <ul>
+                    <li class="js">Start immediately</li>
+                    <li class="js">Work concurrently</li>
+                    <li class="js">No more handoffs</li>
+                </ul>
+            </div>
+            <div class="internal-3">
+                <img src="images/03.PNG" width="100px" height="115px"/>
+                <h3>Governed</h3><br>
+                <p class="dl">Develop and operate with confidence</p>
+                <ul>
+                    <li class="js">Security and compliance already built-in</li>
+                    <li class="js">Simplify user management</li>
+                    <li class="js">Expedite auditing</li>
+                    <li class="js">Act with certainty</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="qwq">
+        <div class="r">
+            <div class="l">
+                <p class="q">The easiest way to deploy cloud native applications</p><br>
+                <p class="w">GitLab’s Kubernetes integration makes it easy to create and configure clusters. With Auto DevOps, GitLab automatically configures CI/CD pipelines to build, test, verify, and deploy applications to Kubernetes.</p><br>
+                <a href="#" class="e">Learn more</a>
+            </div>
+            <div class="t">
+                <img src="images/qwq.png" width="700px" height="360px"/>
+            </div>
+        </div>
+    </div>
+    <!--介绍部分结束-->
+    <!--页脚部分开始-->
+    <footer>
+    <div class="footer">
+        <div id="logo"><img src="images/favicon-96x96.png" width="65px" height="55px"></div>
+        <div class="bottom">
+            <ul>
+                <li class="c"><a href="#" class="tb"><i class="fa fa-twitter"></i></a></li>
+                <li class="c"><a href="#" class="tb"><i class="fa fa-facebook-square"></i></a></li>
+                <li class="c"><a href="#" class="tb"><i class="fa fa-youtube-play"></i></a></li>
+                <li class="c"><a href="#" class="tb"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+            <div id="in">
+                <div class="foot-1">
+                    <h2>Why GitLab?</h2>
+                    <ul><br>
+                        <li><a href="#" class="bot">Product</a></li>
+                        <li><a href="#" class="bot">Solutions</a></li>
+                        <li><a href="#" class="bot">Services</a></li>
+                        <li><a href="#" class="bot">DevOps lifecycle</a></li>
+                        <li><a href="#" class="bot">DevOps tools</a></li>
+                        <li><a href="#" class="bot">Is it any good?</a></li>
+                        <li><a href="#" class="bot">Releases</a></li>
+                        <li><a href="#" class="bot">Pricing</a></li>
+                        <li><a href="#" class="bot">What is GitLab?</a></li>
+                        <li><a href="#" class="bot">Get started</a></li>
+                    </ul>
+                </div>
+                <div class="foot-2">
+                    <h2>Resources</h2>
+                    <ul><br>
+                        <li><a href="#" class="bot">All resources</a></li>
+                        <li><a href="#" class="bot">Blog</a></li>
+                        <li><a href="#" class="bot">Newsletter</a></li>
+                        <li><a href="#" class="bot">Events</a></li>
+                        <li><a href="#" class="bot">Topics</a></li>
+                        <li><a href="#" class="bot">Training</a></li>
+                        <li><a href="#" class="bot">Docs</a></li>
+                        <li><a href="#" class="bot">Install</a></li>
+                    </ul>
+                </div>
+                <div class="foot-3">
+                    <h2>Community</h2>
+                    <ul><br>
+                        <li><a href="#" class="bot">Customers</a></li>
+                        <li><a href="#" class="bot">Contribute</a></li>
+                        <li><a href="#" class="bot">Partners</a></li>
+                        <li><a href="#" class="bot">Explore repositories</a></li>
+                        <li><a href="#" class="bot">Source code</a></li>
+                        <li><a href="#" class="bot">Shop</a></li>
+                        <li><a href="#" class="bot">Direction</a></li>
+                        <li><a href="#" class="bot">Contributors</a></li>
+                        <li><a href="#" class="bot">Core Team</a></li>
+                        <li><a href="#" class="bot">Hall of fame</a></li>
+                        <li><a href="#" class="bot">Resellers</a></li>
+                    </ul>
+                </div>
+                <div class="foot-4">
+                    <h2>Support</h2>
+                    <ul><br>
+                        <li><a href="#" class="bot">Get help</a></li>
+                        <li><a href="#" class="bot">Contact Sales</a></li>
+                        <li><a href="#" class="bot">Contact Support</a></li>
+                        <li><a href="#" class="bot">Support options</a></li>
+                        <li><a href="#" class="bot">Status</a></li>
+                    </ul>
+                </div>
+                <div class="foot-5">
+                    <h2>Company</h2>
+                    <ul><br>
+                        <li><a href="#" class="bot">About GitLab</a></li>
+                        <li><a href="#" class="bot">Jobs</a></li>
+                        <li><a href="#" class="bot">Culture</a></li>
+                        <li><a href="#" class="bot">Press</a></li>
+                        <li><a href="#" class="bot">Team</a></li>
+                        <li><a href="#" class="bot">Analyst Relations</a></li>
+                        <li><a href="#" class="bot">Security</a></li>
+                        <li><a href="#" class="bot">Contact</a></li>
+                        <li><a href="#" class="bot">Handbook</a></li>
+                        <li><a href="#" class="bot">Strategy</a></li>
+                        <li><a href="#" class="bot">Terms</a></li>
+                        <li><a href="#" class="bot">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <!--页脚部分结束-->
+    <!--底部连接开始-->
+    <div class="end">
+        Edit <a href="#">this page</a> — please <a href="#">contribute</a>.
+        <a href="#"><img src="images/bot.png"></a>
+    </div>
+    <!--底部连接结束-->
+</body>
+</html>

@@ -1,0 +1,924 @@
+		<style>
+			body{
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				height: 100%;
+			}
+			.ul1{
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				font-size: 0px;	
+				text-align: center;
+				position: fixed;top: 3px;
+				width: 100%;
+				overflow: hidden;
+				border-bottom: 1px silver solid;
+				background-color: white;
+			}
+			.ul1 li{
+				float: left;
+			}
+			.ul1 li a{
+				border: 1px;
+				color: grey;
+				line-height: 50px;
+				text-decoration: none;
+				font-family: verdana;
+				font-size: 17px;
+				border-radius: 4px;
+				padding: 0px 15px;
+				display: inline-block;
+				margin-top: 3px;
+				margin-bottom: 3px;
+				}
+				.ul1 li a:hover{
+					color: plum;
+					background-color: #808080;
+				}
+				.ul1 li a:active{
+					color: white;
+				}
+				ul input[type=text]{
+					padding-top: 15px;
+					padding-bottom: 15px;
+					margin-top: 2px;
+					width: 250px;
+				}
+				.a1{
+					float: left;
+					font-size: 22px;
+					font-family: verdana;
+					color: grey;
+					margin-left: 90px;
+					margin-top: 8px;
+				}
+				.a1 .a11{
+					margin-top: 8px;
+					margin-left: 8px;
+				}
+				.a2{
+					float: right;
+					margin-right: 80px;
+				}
+				.kaitou{
+					background-image: url(../img/f03d1f2e512944aa966a4e8831c3a9f0!600x600.jpg);
+					width: 100%;
+					height: 650px;
+				}
+				.qianru{
+					width: 1167px;
+					height: 650px;
+					margin-top: -650px;
+					font-family: sans-serif;
+				}
+				.qianru a{
+					text-decoration: none;
+				}
+				.qianru img{
+					width: 320px;
+					height: 470px;
+					float: left;
+					margin-left: 150px;
+					margin-top: 100px;
+				}
+				.qianru img:hover{
+					width: 325px;
+					height: 475px;
+				}
+				.qwe a{
+					font-size: 39px;
+					text-align: left;
+					width: 400px;
+					float: right;
+					margin-right: 200px;
+					margin-top: 130px;
+					color: white;
+				}
+				.qianru p{
+					font-size: 18px;
+					text-align: left;
+					float: right;
+					width: 450px;
+					margin-right: 150px;
+					margin-top: 30px;
+					color: whitesmoke;
+				}
+				.asd a{
+					float: right;
+					margin-right: 390px;
+					margin-top: 30px;
+					padding-bottom: 15px;
+					padding-top: 15px;
+					padding-left: 30px;
+					padding-right: 30px;
+					border-radius: 5px;
+					color: white;
+					background-color: orangered;
+					font-size: 18px;
+				}
+				.asd a:hover{
+					background-color: brown;
+				}
+				.p1 p{
+					text-align: center;
+					margin-top: 40px;
+					font-family: verdana;
+					font-size: 18px;
+					color: #808080;
+					letter-spacing: -1px;
+				}
+				.img1{
+					width: 100%;
+					text-align: center;
+				}
+				.tu1{
+					margin-left: 0;
+					padding: 18px;
+				}
+				.tu2{
+					margin-left: 9%;
+					padding: 18px;
+				}
+				.tu3{
+					margin-left: 9%;
+					padding: 18px;
+				}
+				.tu4{
+					margin-left: 9%;
+					padding: 18px;
+				}
+				.p2{
+					text-align: center;
+					margin-top: 88px;
+				}
+				.p2 a{
+					font-family: "agency fb";
+					text-decoration: none;
+					font-size: 40px;
+				}
+				.p2 a:hover{
+					color: plum;
+					background-color: whitesmoke
+				}
+				.p3{
+					text-align: center;
+					font-family: "agency fb";
+					font-size: 20px;
+					margin-top: 20px;
+				}
+				.p3 p5{
+					text-align: center;
+					margin-top: 5px;
+				}
+				.p3 p6{
+					text-align: center;
+					margin-top: 5px;
+				}
+			
+				.p3 p5 a{
+					text-decoration: none;
+					color: mediumpurple;
+				}
+				.p3 p5 a:hover{
+					text-decoration: underline;
+					color: blueviolet;
+				}
+				.dada{
+					width: 100%;
+					height: 400px;
+				}
+				.hua{
+					width: 1167px;
+					margin-top: 80px;
+				}
+				.hua .hua1 img{
+					float: left;
+					margin-left: 50px;
+				}
+				.hua .hua2 img{
+					margin-left: 300px;
+					margin-top: 0px;
+				}
+				.hua .hua3 img{
+					margin-left: 300px;
+					margin-top: 0px
+				}
+				.xia1{
+					font-family: sans-serif;
+					text-align: left;
+					margin-top: -280px;
+					margin-left: 220px;
+				}
+				.xia1 h{
+					font-size: 27px;
+				}
+				.xia1 p{
+					font-size: 19px;
+					color: silver;
+				}
+				.xia1 ul li{
+					font-size: 19px;
+				}
+				.xia2{
+					font-family: sans-serif;
+					text-align: left;
+					margin-top: -250px;
+					margin-left: 590px;
+				}
+				.xia2 h{
+					font-size: 27px;
+				}
+				.xia2 p{
+					font-size: 19px;
+					color: silver;
+				}
+				.xia2 ul li{
+					font-size: 19px;
+				}
+				.xia3{
+					font-family: sans-serif;
+					text-align: left;
+					margin-top: -210px;
+					margin-left: 980px;
+				}
+				.xia3 h{
+					font-size: 27px;
+				}
+				.xia3 p{
+					font-size: 19px;
+					color: silver;
+				}
+				.xia3 ul li{
+					font-size: 19px;
+				}
+				.beijing{
+					background-color: blueviolet;
+					width: 1167px;
+					height: 300px;
+					margin-top: 250px;
+				}
+				.beijing h{
+					width: 400px;
+					font-family: "微软雅黑";
+					font-size: 32px;
+					float: left;
+					margin-top: 40px;
+					color: white;
+				}
+				.beijing p{
+					font-family: sans-serif;
+					float: right;
+					text-align: left;
+					margin-right: 50px;
+					color: white;
+					font-size: 18px;
+					width: 720px;
+					height: 300px;
+					margin-top: -89px;
+					line-height: 150%;
+				}
+				.chatu{
+					background-color: white;
+					width: 1167px;
+					height: 500px;
+					margin-top: 100px;
+				}
+				.chatu h{
+					float:left;
+					font-family: sans-serif;
+					margin-left: 48px;
+					margin-top: 40px;
+					color: #000000;
+					font-size: 35px;
+					width: 280px;
+					line-height: 120%;
+					text-align: left;
+				}
+				.chatu p{
+					float: left;
+					font-family: sans-serif;
+					color: #000000;
+					font-size: 18px;
+					width: 300px;
+					margin-top: 230px;
+					margin-left: -281px;
+					text-align: left;
+					line-height: 150%;
+				}
+				.chatu a{
+					text-decoration: none;
+					font-family: sans-serif;
+					font-size: 18px;
+					background-color: blueviolet;
+					color: white;
+					padding-top: 15px;
+					padding-bottom: 15px;
+					padding-left: 27px;
+					padding-right: 27px;
+					border-radius: 4px;
+					float: left;
+					margin-top: 402px;
+					margin-left: -300px;
+				}
+				.chatu a:hover{
+					background-color: purple;
+				}
+				.chatu img{
+					width: 650px;
+					height: 300px;
+					margin-top: 90px;
+				}
+				.wenzi{
+					width: 1167px;
+					margin-top: 88px;
+				}
+				.tuwen1{
+					widows: 540px;
+					margin-top: 50px;
+					margin-left: 35px;
+				}
+				.tuwen2{
+					width: 540px;
+					margin-top: 50px;
+					margin-right: 35px;
+				}
+				.wenzi h{
+					font-family: sans-serif;
+					font-size: 36px;
+				}
+				.tuwen1 img{
+					float: left;
+					margin-top: 15px;
+				}
+				.tuwen1 p{
+					width: 385px;
+					text-align: left;
+					font-size: 19px;
+					font-family: sans-serif;
+					float: left;
+					margin-left: 35px;
+				}
+				.tuwen2 img{
+					margin-top: 15px;
+					margin-left: 20px;
+				}
+				.tuwen2 p{
+					float: left;
+					margin-left: 520px;
+					margin-top: -100px;
+					text-align: left;
+					width: 348px;
+					font-family: sans-serif;
+					font-size: 19px;
+				}
+				.wudi{
+					background-color: coral;
+					margin-top: 80px;
+					height: 360px;
+					width: 100%;
+					border: 1 white solid;
+					float: left;
+				}
+				.wudi h{
+					font-family: sans-serif;
+					font-size: 36px;
+					color: white;
+					position: relative;
+					top: 105px;
+				}
+				.wudi p4{
+					font-family: sans-serif;
+					font-size: 18px;
+					color: white;
+					position: relative;
+					top: 120px;
+					left: 105px;
+				}
+				.wudi p5{
+					font-family: sans-serif;
+					font-size: 19px;
+					color: white;
+					position: relative;
+					top: 145px;
+					right: 482px;
+				}
+				.wudi .lianjie1 a{
+					font-family: sans-serif;
+					font-size: 19px;
+					color: white;
+					background: orangered;
+					padding-top: 15px;
+					padding-bottom: 15px;
+					padding-left: 30px;
+					padding-right: 30px;
+					text-decoration: none;
+					position: relative;
+					top: 185px;
+					right: 110px;
+					border-radius: 5px;
+				}
+				.lianjie1 a:hover{
+					background-color: brown;
+				}
+				.wudi .lianjie2 a{
+					font-family: sans-serif;
+					font-size: 19px;
+					color: orangered;
+					background-color: white;
+					padding-bottom: 15px;
+					padding-top: 15px;
+					padding-left: 30px;
+					padding-right: 30px;
+					text-decoration: none;
+					position: relative;
+					top: 163px;
+					left: 115px;
+					border-radius: 5px;
+				}
+				.lianjie2 a:hover{
+					background-color: ghostwhite;
+				}
+				.haha{
+					background-image: url(../img/221458-153676169873f8.jpg);
+					width: 100%;
+					height: 750px;
+					margin-top: 200px;
+				}
+				.hehe{
+					margin-top: -300px;
+					font-family: sans-serif;
+				}
+				.hehe h{
+					font-size: 37px;
+					color: white;
+				}.hehe p{
+					font-size: 18px;
+					color: white;
+					margin-top: 30px;
+				}
+				.hehe a{
+					font-size: 18px;
+					color: orange;
+					padding-bottom: 15px;
+					padding-top: 15px;
+					padding-left: 30px;
+					padding-right: 30px;
+					background-color: white;
+					border-radius: 4px;
+					text-decoration: none;
+					margin-top: 40px;
+				}
+				.hehe a:hover{
+					background-color: whitesmoke;
+					color: coral;
+				}
+				.gudu{
+					width: 1167px;
+					height: 150px;
+					background-color: whitesmoke;
+					margin-top: 230px;
+				}
+				.gudu h{
+					font-family: sans-serif;
+					font-size: 37px;
+				}
+				.tupian1{
+					width: 1167px;
+					height: 500px;
+					font-family: sans-serif;
+				}
+				.tupian1 img{
+					float: left;
+					margin-left: 50px;
+				}
+				.pian2 img{
+					margin-top: 65px;
+					width: 22%;
+					height: 22%;
+				}
+				.duanluo1 p{
+					float: left;
+					margin-top: 130px;
+					margin-left: -260px;
+					padding-bottom: 11px;
+					padding-top: 11px;
+					padding-left: 19px;
+					padding-right: 19px;
+					background-color: white;
+					box-shadow: 2px 2px 5px #C0C0C0;
+					font-size: 18px;
+					border-radius: 4px;
+				}
+				.duanluo2{
+					float: left;
+					margin-top: -10px;
+					margin-left: 47px;
+					font-size: 18px;
+					width: 510px;
+					text-align: left;
+					line-height: 150%;
+				}
+				.tupian1 a{
+					text-decoration: none;
+					font-size: 18px;
+					padding-bottom: 15px;
+					padding-top: 15px;
+					padding-left: 30px;
+					padding-right: 30px;
+					background-color: orangered;
+					color: white;
+					border-radius: 4px;
+					float: left;
+					margin-top: 20px;
+					margin-left: 47px;
+				}
+				.tupian1 a:hover{
+					background-color: brown;
+				}
+				.tupian2{
+					width: 1167px;
+					height: 500px;
+					font-family: sans-serif;
+					margin-top: 100px;
+				}
+				.pian3 img{
+					float: left;
+					margin-left: 105px;
+					margin-top: 70px;
+					width: 21%;
+					height: 21%;
+				}
+				.pian4 img{
+					float: right;
+					margin-right: 40px;
+					width: 44%;
+					height: 44%;
+				}
+				.duanluo3{
+					font-size: 18px;
+					padding-bottom: 11px;
+					padding-top: 11px;
+					padding-left: 19px;
+					padding-right: 19px;
+					background-color: white;
+					box-shadow: 2px 2px 5px #C0C0C0;
+					border-radius: 4px;
+					float: left;
+					margin-top: 127px;
+					margin-left: -244px;
+				}
+				.duanluo4{
+					float: left;
+					margin-top: 20px;
+					margin-left: 96px;
+					font-size: 18px;
+					width: 510px;
+					text-align: left;
+					line-height: 150%;
+				}
+				.tupian2 a{
+					text-decoration: none;
+					font-size: 18px;
+					padding-bottom: 15px;
+					padding-top: 15px;
+					padding-left: 30px;
+					padding-right: 30px;
+					background-color: orangered;
+					color: white;
+					border-radius: 4px;
+					float: left;
+					margin-top: 40px;
+					margin-left: 96px;
+				}
+				.tupian2 a:hover{
+					background-color: brown;
+				}
+				.tupian3{
+					width: 1167px;
+					height: 500px;
+					font-family: sans-serif;
+					margin-top: 100px;
+				}
+				.pian5 img{
+					float: left;
+					width: 43%;
+					height: 43%;
+					margin-left: 50px;
+				}
+				.pian6 img{
+					float: left;
+					width: 16%;
+					height: 16%;
+					margin-left: 60px;
+					margin-top: 150px;
+				}
+				.duanluo5{
+					font-size: 18px;
+					padding-bottom: 11px;
+					padding-top: 11px;
+					padding-left: 19px;
+					padding-right: 19px;
+					background-color: white;
+					box-shadow: 2px 2px 5px #C0C0C0;
+					border-radius: 4px;
+					float: left;
+					margin-top: 215px;
+					margin-left: -185px;
+				}
+				.duanluo6{
+					float: right;
+					margin-top: 23px;
+					margin-right: 42px;
+					font-size: 18px;
+					width: 510px;
+					text-align: left;
+				}
+				.tupian3 a{
+					text-decoration: none;
+					font-size: 18px;
+					padding-bottom: 15px;
+					padding-top: 15px;
+					padding-left: 30px;
+					padding-right: 30px;
+					background-color: orangered;
+					color: white;
+					border-radius: 4px;
+					float: right;
+					margin-top: 40px;
+					margin-right: 402px;
+				}
+				.tupian3 a:hover{
+					background-color: brown;
+				}
+				.tupian4{
+					width: 1167px;
+					height: 500px;
+					font-family: sans-serif;
+					margin-top: 100px;
+				}
+				.pian7 img{
+					float: left;
+					width: 16%;
+					height: 16%;
+					margin-top: 20px;
+					margin-left: 100px;
+				}
+				.duanluo7{
+					font-size: 18px;
+					padding-bottom: 11px;
+					padding-top: 11px;
+					padding-left: 19px;
+					padding-right: 19px;
+					background-color: white;
+					box-shadow: 2px 2px 5px #C0C0C0;
+					border-radius: 4px;
+					float: left;
+					margin-top: 120px;
+					margin-left: -200px;
+				}
+				.duanluo8{
+					float: left;
+					margin-top: 190px;
+					margin-left: -220px;
+					font-size: 18px;
+					width: 510px;
+					text-align: left;
+					line-height: 150%;
+				}
+				.tupian4 a{
+					text-decoration: none;
+					font-size: 18px;
+					padding-bottom: 15px;
+					padding-top: 15px;
+					padding-left: 30px;
+					padding-right: 30px;
+					background-color: orangered;
+					color: white;
+					border-radius: 4px;
+					float: left;
+					margin-top: 305px;
+					margin-left: -508px;
+				}
+				.tupian4 a:hover{
+					background-color: brown;
+				}
+				.pian8 img{
+					float: right;
+					margin-right: 80px;
+					margin-top: 120px;
+				}
+				.xixi{
+					background-image: url(../img/timg.jpg);
+					width: 100%;
+					height: 470px;
+					margin-top: 50px;
+				}
+				.papa{
+					width: 1167px;
+					font-family: sans-serif;
+					height: 470px;
+					margin-top: -470px;
+				}
+				.papa .dongyao a{
+					text-decoration: none;
+					font-size: 42px;
+					color: white;
+					float: left;
+					margin-top: 90px;
+				}
+				.papa p{
+					font-size: 18px;
+					color: antiquewhite;
+					width: 530px;
+					float: left;
+					margin-top: 160px;
+					margin-left: -345px;
+					text-align: left;
+					line-height: 150%;
+				}
+				.dongguai a{
+					text-decoration: none;
+					color: white;
+					background-color: red;
+					padding-bottom: 15px;
+					padding-top: 15px;
+					padding-left: 30px;
+					padding-right: 30px;
+					border-radius: 5px;
+					float: left;
+					margin-top: 250px;
+					margin-left: -530px;
+				}
+				.dongguai a:hover{
+					background-color: brown;
+				}
+				.dongba a{
+					text-decoration: none;
+					font-size: 19px;
+					color: white;
+					float: left;
+					margin-top: 330px;
+					margin-left: -530px;
+				}
+				.dongjiu a{
+					float: right;
+					margin-right: 45px;
+					margin-top: 50px;
+				}
+				.dongjiu a img{
+					width: 430px;
+					height: 380px;
+				}
+				.dongjiu a img:hover{
+					width: 450px;
+					height: 400px;
+				}
+				.kongbai{
+					width: 100%;
+					height: 620px;
+					background-color: white;
+					margin-top: 80PX;
+				}
+				.jimo{
+					width: 100%;
+					height: 545px;
+					background-color: blueviolet;
+					margin-top: -545px;
+				}
+				.jimo img{
+					float: left;
+					margin-top: -45px;
+					margin-left: 48%;
+					width: 75PX;
+					height: 75PX;
+					display: inline-block;
+				}
+				.jimo1{
+					width: 115px;
+					float: left;
+					margin-left: -528px;
+					font-family: sans-serif;
+					margin-top: 100px;
+					text-align: left;
+				}
+				.jimo1 p{
+					font-size: 29px;
+					color: white;
+					width: 50px;
+				}
+				.lian1{
+					float: left;
+					margin-top: -20px;
+				}
+				.jimo1 a{
+					font-size: 17px;
+					color: whitesmoke;
+					text-decoration: none;
+					line-height: 150%;
+				}
+				.jimo1 a:hover{
+					color: orangered;
+				}
+				.jimo2{
+					width: 115px;
+					float: left;
+					margin-left: -328px;
+					font-family: sans-serif;
+					margin-top: 100px;
+					text-align: left;
+				}
+				.jimo2 p{
+					font-size: 29px;
+					color: white;
+				}
+				.lian2{
+					float: left;
+					margin-top: -20px;
+				}
+				.jimo2 a{
+					font-size: 17px;
+					color: whitesmoke;
+					text-decoration: none;
+					line-height: 150%;
+				}
+				.jimo2 a:hover{
+					color: orangered;
+				}
+				.jimo3{
+					width: 115px;
+					float: left;
+					margin-left: -120px;
+					font-family: sans-serif;
+					margin-top: 100px;
+					text-align: left;
+				}
+				.jimo3 p{
+					font-size: 29px;
+					color: white;
+				}
+				.lian3{
+					float: left;
+					margin-top: -20px;
+				}
+				.jimo3 a{
+					font-size: 17px;
+					color: whitesmoke;
+					text-decoration: none;
+					line-height: 150%;
+				}
+				.jimo3 a:hover{
+					color: orangered;
+				}
+				.jimo4{
+					width: 115px;
+					float: left;
+					margin-left: 100px;
+					font-family: sans-serif;
+					margin-top: 100px;
+					text-align: left;
+				}
+				.jimo4 p{
+					font-size: 29px;
+					color: white;
+				}
+				.lian4{
+					float: left;
+					margin-top: -20px;
+				}
+				.jimo4 a{
+					font-size: 17px;
+					color: whitesmoke;
+					text-decoration: none;
+					line-height: 150%;
+				}
+				.jimo4 a:hover{
+					color: orangered;
+				}
+				.jimo5{
+					width: 115px;
+					float: left;
+					margin-left: 90px;
+					font-family: sans-serif;
+					margin-top: 100px;
+					text-align: left;
+				}
+				.jimo5 p{
+					font-size: 29px;
+					color: white;
+				}
+				.lian5{
+					float: left;
+					margin-top: -20px;
+				}
+				.jimo5 a{
+					font-size: 17px;
+					color: whitesmoke;
+					text-decoration: none;
+					line-height: 150%;
+				}
+				.jimo5 a:hover{
+					color: orangered;
+				}
+		</style>

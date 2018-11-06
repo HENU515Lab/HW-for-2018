@@ -1,0 +1,456 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f9f9f9
+}
+.header li,
+.lbt li,
+.bottom li{/*头部导航栏开始*/
+    list-style: none/*取消li的小圆点*/
+}
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0px;/*固定顶部导航栏*/
+    z-index: 99;
+    height: 58px;
+    width: 100%;
+    background-color: #fff;
+}
+.inner{
+    margin: 2px auto;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+}
+.logo{
+    position: relative;
+    float: left;
+    left: 100px;
+}
+.logo a{
+    display: block;
+    width: 114px;
+    height: 38px;
+    margin: 8px 0px;
+}
+.nav{
+    position: relative;
+    right: 80px;
+    float: right;
+    align-items: center;
+}
+.nav a{
+    display: block;
+    width: 96px;
+    height: 50px;
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+    clear: both;
+    text-align: center;
+    margin: 2px 0px;
+    border-radius: 10%;
+}
+.dropdown-1,
+.dropdown-2,
+.dropdown-3,
+.dropdown-5,
+.dropdown-6
+{/*下拉导航选项开始*/
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 100px;
+    box-shadow:  0px 8px 16px 0px rgba(0, 0, 0,0.2);
+    z-index: 5;
+    line-height: 20px;
+}
+.dropdown-1 a,
+.dropdown-2 a,
+.dropdown-3 a,
+.dropdown-5 a,
+.dropdown-6 a{
+    width: 150px;
+    height: 20px;
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 10%;
+    padding:12px 16px;
+}
+.first:hover .dropdown-1{
+    display: block
+}
+.second:hover .dropdown-2{
+    display: block
+}
+.third:hover .dropdown-3{
+    display: block
+}
+.fifth:hover .dropdown-5{
+    display: block
+}
+.sixth:hover .dropdown-6{
+    display: block
+}/*下拉导航选项结束*/
+.nav a:hover{
+    background-color: #f9f9f9;
+    color: #685a94;/*鼠标经过时的效果*/
+}
+.nav div{
+    float: left;
+}
+.dh a{
+    color: #685a94;
+}
+.nav li{
+    float: left;
+}
+.search{
+    cursor:pointer;
+}
+.searcha{
+    position: absolute;
+    top: 56px;
+    height: 56px;
+    width: 100%;
+    display: none;
+}
+#sear{
+    width: 100%;
+    height: 56px;
+}
+/*顶部导航栏结束 */
+/* 轮播图开始 */
+#wrap {
+    position:relative;
+    margin:20px auto;
+    width:100%x;
+    height:640px;
+}
+#wrap .banner {
+    position:relative;
+    top:0;
+    width:100%;
+    height:100%;
+    display:none;
+}
+#wrap .tab{
+    position:absolute;
+    bottom:10px;
+    right:10px;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -70px;
+    width: 160px;
+}
+#wrap .tab span{
+    display: inline-block;
+    width: 18px;
+    height: 4px;
+    margin: 5px;
+    background:rgba(105,105,105,0.5);
+    border-radius: 20%;
+    cursor: pointer;
+}
+#wrap .tab span.on{
+    background:white;/**当spawn有 on这个类名时，显示它的背景色为白色**/
+    }
+#wrap .tab span:hover{
+    background:white;/**当鼠标经过spawn时显示背景色为白色**/
+}
+#wrap .prev {
+    position:absolute;
+    left:40px;
+    top:300px;
+    width:50px;
+    height:50px;
+    background:rgba(105,105,105,0);
+    cursor:pointer;/**给一个鼠标提示**/
+    text-align: center;
+}
+#wrap .prev:hover{
+    background:rgba(68, 59, 59, 0.5);
+} 
+#wrap .next {
+    position:absolute;
+    right:40px;
+    top:300px;
+    width:50px;
+    height:50px;
+    background:rgba(105,105,105,0);
+    cursor:pointer;/**给一个鼠标提示**/
+    text-align: center;
+}
+.img{
+    position: relative;
+    top: 10px
+}
+#wrap .next:hover{
+    background:rgba(105,105,105,0.5);
+}
+.insl{
+    height: 440px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    left: 0px
+}
+.insl a:hover #jpg{
+    width: 300px;
+    height: 440px;
+}
+.insr{
+    width: 540px;
+    height: 340px;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+}
+.insr #h{
+    font-size: 45px;
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+}
+.insr p{
+    font-size: 18px;
+    color: #dfdfdf;
+    line-height: 30px
+
+}
+.insr #p{
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    background-color: orangered;
+    color: white;
+    border-radius: 5%
+}
+#p:hover{
+    background-color: #e65328
+}
+.hz{
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    margin-left: -500px;
+}
+/*轮播图结束*/
+/*介绍部分开始*/
+.container{
+    height: 650px;
+    width: 100%;
+    background-color: #f9f9f9;
+    margin: 150px auto;
+}
+.inside{
+    position: relative;
+    max-width: 1500px;
+    height: 620px;
+    background-color: #f9f9f9;
+    margin: auto auto;
+}
+.internal-1,
+.internal-2,
+.internal-3{
+    height: 580px;
+    width: 360px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    position: absolute;
+}
+.internal-1{
+    left: 50px;
+    top: 0px;
+}
+.internal-2{
+    left: 50%;
+    margin-left: -180px;
+    top: 0px;
+}
+.internal-3{
+    right: 30px;
+    top: 0px;
+}
+.internal-1 h3,
+.internal-2 h3,
+.internal-3 h3{
+    font-size: 24px;
+}
+.dl{
+    font-size: 16px;
+    color: grey;
+    font-style: oblique
+}
+.js{
+    margin: 12px 30px
+}
+.qwq{
+    width: 100%;
+    height: 500px;
+    background-color: #f9f9f9;
+    position: relative;
+    margin: 100px 0;
+    font-size: 16px;
+}
+.r{
+    height: 100%;
+    width: 1200px;
+    position: absolute;
+    position: relative;
+    left: 50%;
+    margin-left: -600px;
+    background-color: #fff
+}
+.l{
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    background-color: white;
+}
+.q{
+    font-size: 35px;
+    color: black;
+}
+.w{
+    font-size: 18px
+}
+.e{
+    width: 150px;
+    height: 55px;
+    display: block;
+    background-color: #554488;
+    border-radius: 5%;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 55px;
+    text-align: center
+}
+.e:hover{
+    background-color: #403368;
+}
+.t{
+    width: 650px;
+    height: 360px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    background-color: white;
+}
+/*介绍部分结束*/
+.footer{
+    height: 560px;
+    background-color: white;
+    z-index: 5;
+    margin: 160px 0px 0px 0px;
+}
+.bottom{
+    margin: 60px 0x 0px 0px;
+    height: 500px;
+    width: 100%;
+    background-color: #6b4fbb;
+    z-index: 8;
+    position: relative;
+}
+#logo{
+    width: 65px;
+    height: 60px;
+    position: relative;
+    left: 50%;
+    margin-left: -32px;
+    top: 28px;
+    z-index: 10;
+}/*四个图标开始*/
+.tb{
+    width: 30px;
+    height: 30px;
+    background-color: #6b4fbb;
+    margin: auto 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover{
+    color: #fba225
+}
+.c{
+    float: left;
+}
+.bottom ul{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: -100px;
+}/*四个图标结束*/
+/*四块无序表开始*/
+.footer h2{
+    color: white
+}
+.bot{
+    font-size: 14px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+#in{
+    position: relative;
+    top: 80px;
+    margin-left: -100px;
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #6b4fbb;
+    z-index: 50;
+}
+.foot-1,
+.foot-2,
+.foot-3,
+.foot-4,
+.foot-5{
+    height: 340px;
+    width: 200px;
+    background-color: #6b4fbb;
+    z-index: 15;
+    margin: 30px 20px;
+    position: relative;
+    float: left;
+    font-size: 18px;
+    max-height: 350px
+}
+.in ul{
+    position: absolute;
+}
+/*页脚部分结束*/
+.end{
+    bottom: 0px;
+    width: 100%;
+    height: 30px;
+    background-color: #554488;
+    margin: 0 auto
+}
+.end{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px
+}
+.end a{
+    color: white
+}

@@ -1,0 +1,138 @@
+.right{
+	position: relative;
+	left:850px;
+	top:50px;
+}
+.zhongyu2{
+	margin-left: 50%;
+}
+#border1{
+	border-bottom-style:solid;
+	border-color: gainsboro;
+	position: absolute;
+	top:40px;
+    width:1500px;
+}   
+table.jiayou1{
+	border-collapse: collapse;
+	border: 1px solid  black ;
+	hight:500px;
+	width:550px;
+}
+table,th,td{
+	border: 1px solid  darkgray;
+}
+#ermail{
+	margin-left: 20px;
+	height:20px;
+	width:500px;
+	margin-top: 10px;
+}
+#password{
+	margin-left: 20px;
+	height:20px;
+	width:500px;
+	margin-top: 10px;	
+}
+.sign1{
+	display: inline;
+	margin-left:15px;
+	margin-top: 15px;
+}
+.sign2{
+	display: inline;
+	font-size: 20px;
+	margin-left: 167px;
+	color:green;
+}
+#header{
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom:15px;
+	margin-right: 20px;
+	text-align:center;
+	background-color:green;	
+}
+.shezhiziti1{
+	font-size: 20px;
+}
+div.table{
+	border:1px solid darkgray;
+	width:548px;
+	height: 280px;
+}
+.tubiao1{
+		border:1px solid darkgray ;
+		display:inline;
+		float:left;
+		margin-left:20px;
+		position:top;
+		height:70px;
+		width:240px;
+}
+.tubiao2{
+	    border:1px solid darkgray;
+	    display:inline;
+	    float:right;
+	    margin-right: 20px;
+	    position:top;
+	    height:70px;
+		width:240px;
+}
+.tubiao3{
+	    border:1px solid darkgray;
+	    display:inline;
+		float:left;
+		margin-left: 20px;
+		margin-top: 10px;
+		position:bottom;
+		height:70px;
+		width:240px;
+}
+.tubiao4{
+	    border:1px solid darkgray;
+	    display:inline;
+		float:right;
+		margin-right: 20px;
+		margin-top: 10px;
+		position:bottom;
+		height:70px;
+		width:240px;
+}
+.sign3{
+	    margin-top:200px;
+	    margin-left:15px;
+	    font-size: 20px;
+}
+.left{
+     position:relative;
+     bottom:400px;
+     left:100px;
+}
+.yanse{
+	color:gray;
+}
+.wuyu{
+	font-size: 20px;
+	color:blue;
+}
+#jiayou{
+	font-size: 25px;
+	color:gray;
+}
+#border2{
+	border-bottom-style:solid;
+	border-color: gainsboro;
+	position: absolute;
+	top:650px;
+	width:1500px;
+}
+#zhongyu1{
+	position:relative;
+	bottom: 250px;
+	left:110px;
+	font-size: 20px;
+	color:dodgerblue;
+}
+
+
