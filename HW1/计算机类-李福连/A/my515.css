@@ -1,0 +1,266 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    height: 25px;
+    width: 100%;
+    background-color: white;
+    padding: 7px 14px 7px 7px;
+    border-bottom: 1px solid #f0f0f0;
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+}
+
+.logo {
+    margin-left: -13.7px;
+    margin-top: -3px;
+}
+
+.bigbig {
+    padding-top: 117px;
+    width: 100%;
+    height: 100%;
+}
+
+.big {
+    font-size: 14.3px;
+    max-height: 817.33px;
+    max-width: 933px;
+    margin: 0px auto;
+}
+
+.left {
+    width: 530px;
+    height: 700px;
+    padding: 0px 15px;
+    float: left;
+}
+
+.gitlab-com {
+    width: 530px;
+    height: 40.667px;
+    margin-bottom: 0.78em;
+    display: block;
+    line-height: 1.5em;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.p1 {
+    font-size: 16px;
+    width: 530px;
+    height: 48px;
+    margin: 16px 0px;
+    line-height: 1.5em;
+}
+
+.ul1 {
+    width: 490px;
+    height: 106.667px;
+    padding-left: 40px;
+    margin: 14px 0px;
+    line-height: 1.8em;
+}
+
+.left a {
+    color: #1b69b6;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.left a:hover {
+    text-decoration: underline;
+}
+
+.p2 {
+    width: 530px;
+    height: 24px;
+    margin: 14px 0px;
+    font-size: 16px;
+}
+
+.ul2 {
+    width: 490px;
+    height: 53.333px;
+    padding-left: 40px;
+    margin: 14px 0px;
+    line-height: 1.8em;
+}
+
+.right-top {
+    list-style: none;
+}
+
+.right-top-li,
+.right-top-li-2 {
+    width: 164.5px;
+    padding: 10px 10px 11px 10px;
+    float: left;
+    border: 1px solid rgb(233, 233, 233);
+    text-align: center;
+    font-size: 18px;
+}
+
+.right-top-li {
+    height: 29px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    border-top-left-radius: 5%;
+}
+
+.right-top-li-2 {
+    height: 28px;
+    border-bottom: 2px solid rgb(102, 102, 196);
+    border-top-right-radius: 5%;
+}
+
+.right-register {
+    width: 340px;
+    height: 513px;
+    padding: 0px 15px;
+    border: 1px solid rgb(233, 233, 233);
+    float: right;
+}
+
+.right-register div {
+    height: 19.333px;
+    padding: 7px 0px;
+    font-weight: 600;
+}
+
+#small {
+    width: 300px;
+    height: 19.333;
+    margin-bottom: 14px;
+    font-size: 13px;
+    font-weight: 100px;
+    color: rgb(112, 112, 112);
+}
+
+input {
+    width: 318px;
+    height: 20px;
+    padding: 6px 10px;
+    border: 1px solid;
+    border-color: rgb(233, 233, 233);
+}
+
+.xuanxiang {
+    width: 12px;
+    height: 12px;
+    margin-top: 2px;
+    line-height: 1.5em;
+}
+
+.right-register span {
+    line-height: 2.5em;
+}
+
+.right-register a {
+    text-decoration: none;
+    color: #1b69b6;
+}
+
+.right-register a:hover {
+    text-decoration: underline;
+}
+
+.tijiao {
+    color: #fff;
+    padding: 6px 0px;
+    background-color: #1aaa55;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 340px;
+    height: 34px;
+    padding: 0px 15px;
+    margin: 8px 0px 0px 0px;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 5px;
+}
+
+.right-sign-in-with {
+    width: 340px;
+    height: 160px;
+    border: 1px solid rgb(233, 233, 233);
+    float: right;
+    padding: 14px;
+    margin-top: 15px;
+}
+
+.right-sign-in-with span {
+    line-height: 20px;
+    margin-left: 14px;
+}
+
+.right-sign-in-with-small {
+    display: inline-block;
+    width: 144px;
+    height: 20px;
+    padding: 8px;
+    color: rgb(46, 46, 46);
+    margin: 5px 6px 6px 0px;
+    border: 1px solid rgb(233, 233, 233);
+    text-decoration: none;
+    line-height: 20px;
+}
+
+.right-sign-in-with-small-left {
+    display: inline-block;
+    width: 144px;
+    height: 20px;
+    padding: 8px;
+    margin: 6px 0px 6px 6px;
+    border: 1px solid rgb(233, 233, 233);
+    text-decoration: none;
+}
+
+.right-sign-in-with-small:hover {
+    background-color: rgb(239, 239, 239);
+}
+
+#remember {
+    width: 130px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.bottom {
+    height: 64px;
+    width: 100;
+    float: bottom;
+    margin-top: 770px;
+    border-top: 1px solid rgb(233, 233, 233);
+}
+
+.bottom-small {
+    width: 930px;
+    margin: auto;
+}
+
+.bottom-small2 {
+    margin-left: 13px;
+}
+
+.bottom span {
+    line-height: 64px;
+    font-size: 14px;
+    vertical-align: center;
+    color: rgb(27, 105, 182);
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+}
