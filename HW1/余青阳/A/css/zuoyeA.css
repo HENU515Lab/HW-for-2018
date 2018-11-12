@@ -11,7 +11,8 @@
 				padding: 0;
 				font-size: 0px;	
 				text-align: center;
-				position: fixed;top: 3px;
+				position: absolute;
+				top: 3px;
 				width: 100%;
 				overflow: hidden;
 				border-bottom: 1px silver solid;
@@ -795,12 +796,26 @@
 					height: 75PX;
 					display: inline-block;
 				}
+				.xiaotubiao{
+					height: 50px;
+					font-size: 26px;
+					position: relative;
+					top: 60px;
+					letter-spacing: 10px;
+					right:25.5%;
+				}
+				i{
+					display: inline-block;
+					color: white;
+				}
+				i:hover{
+					color: orange;
+				}
 				.jimo1{
 					width: 115px;
-					float: left;
-					margin-left: -528px;
+					margin-left: -900px;
 					font-family: sans-serif;
-					margin-top: 100px;
+					margin-top: 0;
 					text-align: left;
 				}
 				.jimo1 p{
@@ -823,10 +838,9 @@
 				}
 				.jimo2{
 					width: 115px;
-					float: left;
-					margin-left: -328px;
+					margin-left: -500px;
 					font-family: sans-serif;
-					margin-top: 100px;
+					margin-top: -60px;
 					text-align: left;
 				}
 				.jimo2 p{
@@ -848,10 +862,9 @@
 				}
 				.jimo3{
 					width: 115px;
-					float: left;
-					margin-left: -120px;
 					font-family: sans-serif;
-					margin-top: 100px;
+					margin-top: -60px;
+					margin-left: -60px;
 					text-align: left;
 				}
 				.jimo3 p{
@@ -873,10 +886,9 @@
 				}
 				.jimo4{
 					width: 115px;
-					float: left;
-					margin-left: 100px;
+					margin-left: 410px;
 					font-family: sans-serif;
-					margin-top: 100px;
+					margin-top: -60px;
 					text-align: left;
 				}
 				.jimo4 p{
@@ -898,10 +910,9 @@
 				}
 				.jimo5{
 					width: 115px;
-					float: left;
-					margin-left: 90px;
+					margin-left: 800px;
 					font-family: sans-serif;
-					margin-top: 100px;
+					margin-top: -60px;
 					text-align: left;
 				}
 				.jimo5 p{
