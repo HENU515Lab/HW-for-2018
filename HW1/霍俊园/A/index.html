@@ -3,27 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>A级作业</title>
-		<style>
-		a{text-decoration:none;}
-		h1{color: white;}
-		.last h2{color: white;}
-		.last li{list-style-type:none ;color: white;}
-	    .ddd{float: right; position: relative; bottom: 150px;right: 80px;} 
-	    .ccc{position: relative;right: 130px;top: 20px;}
-		.the{float: left;margin-left: 40px;margin-right: 0px;}
-		.last{width: 1000px;height: 440px;background: #4056A6;margin:0 auto;text-align: center;}
-		.c{width:150px;height: 30px;background:purple;text-align: center;}
-		.b{margin-left: 100px;margin-top: 70px;}
-		.four{width: 1000px;height: 400px;}
-		.a{margin-left: 100px;margin-top: 70px;}
-		table{margin-bottom: 1px;}
-		.third{width:150px;height: 30px;background: red; }
-		p{color: white;}
-		#second{ margin-top: 1px;height: 400px;position: relative;bottom: 10px;}
-		td{width:100px;}
-        #first{width:1000px;height:1200px;margin: 0 auto; }
-		.oo{position: relative;top:150px;width: 1000px;height: 50px;background: #554488;text-align:center;}	
-		</style>
+		<link href="css/new_file.css" rel="stylesheet" type="text/css" /> 
 	</head>
 	<body>
 		<div id="first">
@@ -39,31 +19,71 @@
 					<td>&nbsp;&nbsp;&nbsp;</td>
 					<td>&nbsp;&nbsp;&nbsp;</td>
 					<td>&nbsp;&nbsp;&nbsp;</td>
-					<td>Why&nbsp;GitLab?</td>
-					<td>Resources</td>
-					<td>Community</td>
-					<td>Support</td>
-					<td>Pricing</td>
-					<td>Company</td>
+					<td>
+						<div class="dropdown">
+						 Why&nbsp;GitLab?
+						  <div class="dropdown-content" style="left: 0;">
+						  	<ul style="list-style: none;">
+						      <li><a herf="#">Product</a></li><br>	
+						      <li><a herf="#">Solution</a></li><br>	
+						  	  <li><a herf="#">Services</a></li><br>
+						  	  <li><a herf="#">Devops&nbsp;&nbsp;lifestyle</a></li><br>
+						  	  <li><a herf="#">Devops&nbsp;&nbsp;tools</a></li><br>
+						  	  <li><a herf="#">Is&nbsp;&nbsp;it&nbsp;&nbsp;any&nbsp;&nbsp;good?</a></li><br>
+						  	 <li><a herf="#">Get&nbsp;&nbsp;started</a></li><br>
+						  	</ul>
+						  </div>
+						</div>
+					</td>
+					<td>
+						<div class="dropdown">
+							Resources
+							 <div class="dropdown-content" style="left: 0;">
+						  	<ul style="list-style: none;">
+						      <li><a herf="#">Product</a></li><br>	
+						      <li><a herf="#">Solution</a></li><br>	
+						  	  <li><a herf="#">Services</a></li><br>
+						  	  <li><a herf="#">Devops&nbsp;&nbsp;lifestyle</a></li><br>
+						  	  <li><a herf="#">Devops&nbsp;&nbsp;tools</a></li><br>
+						  	  </ul>
+						  </div>
+						</div>
+					</td>
+					<td>
+						<div class="dropdown">
+						Community
+							 <div class="dropdown-content" style="left: 0;">
+						  	<ul style="list-style: none;">
+						      <li><a herf="#">Product</a></li><br>	
+						      <li><a herf="#">Solution</a></li><br>	
+						  	  <li><a herf="#">Services</a></li><br>
+						  	  <li><a herf="#">Devops&nbsp;&nbsp;lifestyle</a></li><br>
+						  	  <li><a herf="#">Devops&nbsp;&nbsp;tools</a></li><br>
+						  	  </ul>
+						  </div>
+						</div>
+							</td>
+					<td><a> Support</a></td>
+					<td><a> Pricing</a></td>
+					<td><a> Company</a></td>
 					<td><img src="img/4.jpg.png" /> </td>
-					<td>Sign&nbsp;&nbsp;in</td>
-					<td>Register</td>
+					<td><a> Sign&nbsp;&nbsp;in</a></td>
+					<td><a> Register</a></td>
 				</tr>
 			</table>
-				
 		    <div id="second" style="background-image: url(img/ccc.png);">
-				<div class="a" style="float:left;"><a href='www.badu.com'>
+				<div class="a" style="float:left;"><span><a href='www.badu.com'>
 		                 <h1>Strong&nbsp;Perfomer&nbsp;In<br>
 		                 VSM &nbsp;Tools&nbsp;Evaluation</h1>
 				         <p>"Forrester&nbsp;Cites&nbsp;Gitlab&nbsp;As&nbsp;
 				         	A&nbsp;Strong&nbsp;Performer&nbsp;
-				         In&nbsp;VSM<br>Tools&nbsp;Evaluation"</p></a>
+				         In&nbsp;VSM<br>Tools&nbsp;Evaluation"</p></a></span>
 				    <div class="third">
-				    	<a href='www.badu.com'>
+				    	<span><a href='www.badu.com'>
 				    		<p>Try GitLab for Free</p>
-				    	</a>
+				    	</a></span>
 				    </div>
-				        <a href='www.badu.com'>
+				        <span><a href='www.badu.com'>
 				        	<p> Read the full report</p>
 				        </a>
 			    </div>
@@ -77,10 +97,10 @@
 		        <h2>Visible</h2> 
 		        See everying that matters <br>
 		      <ul>
-		        <li>Stay in your flow</li>
-		        <li>Don't wait on syncing</li>
-		        <li>Manage projects ,not tools</li>
-		        <li>Improve cycle time</li>
+		        <li><a>Stay in your flow</a></li>
+		        <li><a>Don't wait on syncing</a></li>
+		        <li><a>Manage projects ,not tools</a></li>
+		        <li><a>Improve cycle time</a></li>
 		      </ul>
 		    </div>
 		    <div class="b" style="float:left;">
@@ -88,9 +108,9 @@
 		        <h2>Efficient</h2> 
 		        Collaborate without waiting<br>
 		      <ul>
-		      	<li>Start immediately</li>
-		        <li>Work concurrently</li>
-		        <li>No more handoffs</li>
+		      	<li><a>Start immediately</a></li>
+		        <li><a>Work concurrently</a></li>
+		        <li><a>No more handoffs</a></li>
 		     </ul>
 		    </div>
 		
@@ -99,10 +119,10 @@
 		        <h2>Governed</h2> 
 		        Develop and operate with coofidence <br>
 		      <ul>
-		      	<li>Security and compliance already built-in</li>
-		        <li>Simplify user management</li>
-		        <li>Expedite auditing</li>
-		        <li>Act with certainty</li>
+		      	<li><a>Security and compliance already built-in</a></li>
+		        <li><a>Simplify user management</a></li>
+		        <li><a>Expedite auditing</a></li>
+		        <li><a>Act with certainty</a></li>
 		     </ul>
 		    </div>
 	     </div>
@@ -132,12 +152,12 @@
 	   <div class="the">
 	   	<h2>Why GitLab?</h2>
 	   	<ul>
-	   		<li>Product</li>
-	   		<li>Solutions</li>
-	   		<li>services</li>
-	   		<li>Devops lifecycle</li>
-	   		<li>Devos tools</li>
-	   		<li>Is it any good?</li>
+	   		<li><a>Product</a></li>
+	   		<li><a>Solutions</a></li>
+	   		<li><a>services</a></li>
+	   		<li><a>Devops lifecycle</a></li>
+	   		<li><a>Devos tools</a></li>
+	   		<li>Is it any good?</a></li>
 	   		<li>Releases</li>
 	   		<li>Pricing</li>
 	   		<li>What is GitLab?</li>
@@ -147,11 +167,11 @@
 	   <div class="the ">
 	   	<h2>Resources</h2>
 	   	<ul>
-	   		<li>All resources</li>
-	   		<li>Blog</li>
-	   		<li>newsletter</li>
-	   		<li>Events</li>
-	   		<li>Training</li>
+	   		<li><a>All resources</a></li>
+	   		<li><a>Blog</a></li>
+	   		<li><a>newsletter</a></li>
+	   		<li><a>Events</a></li>
+	   		<li><a>Training</a></li>
 	   		<li>Docs</li>
 	   		<li>Istall</li>
 	   	</ul>
@@ -159,11 +179,11 @@
 	   <div class="the">
 	   	<h2>Community</h2>
 	   	<ul>
-	   		<li>Customer</li>
-	   		<li>Contribute</li>
-	   		<li>Partner</li>
-	   		<li>Explore repositories</li>
-	   		<li>Source Code</li>
+	   		<li><a>Customer</a></li>
+	   		<li><a>Contribute</a></li>
+	   		<li><a>Partner</a></li>
+	   		<li><a>Explore repositories</a></li>
+	   		<li><a>Source Code</a></li>
 	   		<li>Shop</li>
 	   		<li>Direction</li>
 	   		<li>Contributors</li>
@@ -175,22 +195,22 @@
 	   <div class="ccc">
 	   	<h2>Contact</h2>
 	   <ul>
-	   	<li>Support</li>
-	   	<li>Contact Sales</li>
-	   	<li>Get help</li>
-	   	<li>Contact</li>
-	   	<li>Security</li>
+	   	<li><a>Support</a></li>
+	   	<li><a>Contact Sales</a></li>
+	   	<li><a>Get help</a></li>
+	   	<li><a>Contact</a></li>
+	   	<li><a>Security</a></li>
 	   </ul>
 	   </div>
 	   <div class="ddd">
 	   <p>
 	   	<h2>Company</h2>
 	   	<ul>
-	   		<li>About  us</li>
-	   		<li>Lobs</li>
-	   		<li>Culture</li>
-	   		<li>Press</li>
-	   		<li>Team</li>
+	   		<li><a>About  us</a></li>
+	   		<li><a>Lobs</a></li>
+	   		<li><a>Culture</a></li>
+	   		<li><a>Press</a></li>
+	   		<li><a>Team</a></li>
 	   		<li>Analyst Relation</li>
 	   		<li>Handbook</li>
 	   		<li>Strategy</li>

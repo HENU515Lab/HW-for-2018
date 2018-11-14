@@ -1,0 +1,28 @@
+.HPB
+{
+	margin: 0 0 0 0;
+	padding: 30px 30px 30px 30px;
+	background-color: #FFFFFF;
+	width: 30%;
+	float: left;
+}
+.HPB button
+{
+	border: 0px; 
+    padding: 20px 20px;
+    border-radius: 3px;
+    background-color: #554488;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+.HPB button:hover/*点击发光特效*/
+{
+	background-color: #403368;
+}
+.Kubernetes img
+{
+	width: 60%;
+	float: right;
+	display: block;
+	margin: 0 0 0 0;
+}

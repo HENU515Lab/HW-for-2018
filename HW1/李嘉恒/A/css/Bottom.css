@@ -1,0 +1,71 @@
+.WRCSC
+{
+	flex: 1;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+.WRCSC li
+{
+	list-style-type:none;
+	line-height: 23px;
+}
+.WRCSC h2
+{
+	color: #F9F9F9;
+	line-height: 27px;
+}
+.WRCSC a
+{
+	color: #F9F9F9;
+}
+.WRCSC a:hover
+{
+	color: #faa255;
+	background-color: #6b4fbb;
+	text-decoration: none;
+}
+.Png
+{
+	margin: 0 auto;
+	margin-bottom: -16px;
+	width: 50px;
+	height: 50px;
+}
+.icon
+{
+	margin: 0 auto;
+	margin-bottom: -100px;
+	background-color: salmon;
+	text-align: center;
+}
+.icon a
+{
+	padding: 0 10px;
+}
+.icon i
+{
+	font-size: 27px;
+	color: #F9F9F9;
+}
+.icon i:hover
+{
+	color: #faa255;
+	background-color: #6b4fbb;
+}
+.Bottom2
+{
+	text-align: center;
+	background-color: #554488;
+	margin: 0 0 0 0;
+	color: #FFFFFF;
+}
+.Bottom2 a
+{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.Bottom2 a:hover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}

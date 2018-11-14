@@ -1,0 +1,50 @@
+    a:hover{background: #00FFFF;}
+         a{text-decoration:none;}
+		h1{color: white;}
+  .last h2{color: white;}
+  .last li{list-style-type:none ;color: white;}
+	  .ddd{float: right; position: relative; bottom: 150px;right: 80px;} 
+	  .ccc{position: relative;right: 130px;top: 20px;}
+	  .the{float: left;margin-left: 40px;margin-right: 0px;}
+	 .last{width: 1000px;height: 440px;background: #4056A6;margin:0 auto;text-align: center;}
+	    .c{width:150px;height: 30px;background:purple;text-align: center;}
+	    .b{margin-left: 100px;margin-top: 70px;}
+	 .four{width: 1000px;height: 400px;}
+		.a{margin-left: 100px;margin-top: 70px;}
+	 table{margin-bottom: 1px;}
+	.third{width:150px;height: 30px;background: red; }
+		 p{color: white;}
+   #second{ margin-top: 1px;height: 400px;position: relative;bottom: 10px;}
+		td{width:100px;}
+    #first{width:1000px;height:1200px;margin: 0 auto; }
+	   .oo{position: relative;top:150px;width: 1000px;height: 50px;background: #554488;text-align:center;}	
+   a:hover{color: #00FFFF;}
+  td:hover{background: red;}
+li a:hover{color: deeppink;}
+ td a:hover{color:royalblue;}
+   h1:hover{background: blue;}
+    p:hover{background: greenyellow;}
+
+     table{  width: 1000px;}
+      .one{         margin:0 auto; 
+	     width:1000px;
+	     height:1100px;
+	     border: solid 2px darkgoldenrod;
+	     text-align: center;}	
+.dropdown{position: relative; 
+	      display: inline-block;}	
+.dropdown-content{display: none;
+	      position: absolute;
+	       background-color: #f9f9f9;
+	       min-width: 160px;
+	       min-height: 300px;
+	       box-shadow: 0px 8px 16px 0px ragb(0,0,0,0.2);
+	       z-index: 1;}	
+.dropdown:hover .dropdown-content{display: block;}	
+.li_img{width: 800px; float: left;list-style: none;}
+     .ul_img{width: 6000px;padding: 0px ;margin: 0px;transition:all 2s;}
+     .main_div{width: 800px;overflow: hidden;position: relative;top: 50px;left: 80px;}
+    .arrows span{font-size: 3em;color: seashell;}
+     .arrow span:hover{cursor: pointer;background-color: rgba(192,192,192,0.29);}
+     .div_btn{float: left;border-radius: 100px;background-color: aquamarine;width: 60px;height: 10px;margin-top: 130px;} 
+    .div_btn:hover{background-color:aqua ;}

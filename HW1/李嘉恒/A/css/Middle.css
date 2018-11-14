@@ -1,0 +1,20 @@
+.threebox
+{
+	flex: 1;
+	padding-left: 20px;
+}
+.threebox h2
+{
+	margin-top: 10px;
+	font-size: 30px;
+}
+.threebox p
+{
+	margin-top: 10px;
+	font-style:oblique;
+	color: gray;
+}
+.threebox li
+{
+	margin-top: 10px;
+}

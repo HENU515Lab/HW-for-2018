@@ -1,0 +1,74 @@
+.topnav
+{
+    text-align: center;
+    float: right;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.topnav a
+{
+	padding: 20px 14px;
+	text-decoration: none;
+	display: block;
+	color: #90999F;
+}
+.topnav a:hover
+{
+    background-color: #f2f2f2;
+    color: #5b58a9;
+    text-decoration: none;
+}
+.icon-search/*放大镜符号*/
+{
+	width: 12px;
+	height: 12px;
+	border-radius: 100%;
+	border:2px solid currentcolor;
+	position: relative;
+	display: block;
+	
+}
+.icon-search:after/*放大镜符号*/
+{
+	content: "";
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+	width:8px;
+	height: 2px;
+	position: absolute;
+	top:10px;
+	left:8px;
+	background-color: currentcolor;
+}
+.Topnav .png
+{
+	width: 140px;
+	float: left;
+	margin:10px 1px 3px 50px;
+	
+}
+.topnavbug
+{
+	width: 0;
+	height: 0;
+}
+.topnav1 a
+{
+	padding: 5px 5px;
+	text-decoration: none;
+	display: block;
+}
+.topnav1
+{
+	margin-top: 17px;
+}
+.topnavcolor a
+{
+	color: #554488;
+}
+.topnavcolor a:hover
+{
+	color: #554488;
+	text-decoration: none;
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Sign in.GitLab</title>
+		<style type="text/css">
+		#home{
+			font-family: "verdana, geneva, arial, helvetica,sans-serif";
+			font-size:120%;
+			color:black;
+		}
+		#home p{
+			color: grey;
+		}
+		.ab{
+			font-size: 120%;
+			color: blue;
+			font-family: Andale Mono;
+		}
+		.cd{
+			font-size: 120%;
+			color: blue;
+			font-family: Andale Mono;
+		}
+		.ef{
+			font-size: 120%;
+			color: blue;
+			font-family: Andale Mono;
+		}
+		.gh{
+			font-size: 120%;
+			color: blue;
+			font-family: Andale Mono;
+		}
+		.hi{
+			font-size: 120%;
+			color: blue;
+			font-family: Andale Mono;
+		}
+		.jk{
+			font-size: 120%;
+			color: blue;
+			font-family: Andale Mono;
+		}
+		#qw{
+			float: right;
+		}
+        
+		#elixirs{
+			width:350px;
+			margin-right: 200px;
+			margin-top: 20px;
+			border-color:black ;
+			border-width:thin;
+			border-style:solid;
+			line-height:30px;
+			
+		}
+		#elixirs table{
+			border-collapse: collapse;
+			padding: 0px;
+		}
+		.he{
+			border-collapse: collapse;
+			background: aliceblue;
+			text-align: center;
+		}
+		#her{
+			font-family:"arial";
+			font-size: smaller;
+			color: gray;
+		}
+		
+		.as input{
+			    font-family:"arial";
+			    font-size: smaller;
+			    border-style: "outset";
+		}
+		.az input{
+			width: 320px;
+		}
+		.az{
+			padding-left: 20px;	
+			padding-right: 20px;
+		}
+		.ax{
+			width: 320px;
+			background-color:green;
+		}
+		#help{
+			width:330px;
+			margin-right: 200px;
+			margin-top: 20px;
+			border-color:black ;
+			border-width:thin;
+			border-style:solid;
+			line-height:30px;
+			padding-left: 20px;
+		}
+		#help p{
+			font-family: "Î¢ÈíÑÅºÚ";
+			font-size: small;
+		}
+		#help table{
+			border-collapse: collapse;
+		}
+		</style>
+	</head>
+	<body>
+		<p><img arc="gitlab123e.jpg"></p>
+		<div id=qw>
+		<div id="elixirs">
+			<table border=1px width=350px>
+				
+				<tr class="he">
+					<td>Sign in</td>
+					<td>Register</td>
+			</tr>
+			</table>
+			<from method="POST">
+				</from>
+				<p class="az">
+				Full name<br />
+				<input type="text" name="full name"><br/>
+			    Username<br />
+				<input type="text" name="username"><br/>
+				Emall<br />
+				<input type="text" name="emall"><br/>
+				Emall confirmation<br />
+				<input type="text" name="emall confirmation"><br/>
+				Password<br />
+				<input type="text" name="password"><br/>
+				</p>
+			    <p id="her">Minimum length is 8 characters</p>
+				<p class="as">
+	                <input type="checkbox" name="caroptions[]" value="I accept the Terms of Service and Privacy policy" />I accept the Terms of Service and Privacy policy<br />
+	                
+	                <input type="checkbox" name="caroptions[]" value="I'd like to receive updates via email about GitLab." />I'd like to receive updates via email about GitLab.<br />
+				    </p>
+				<center>
+	                <p class="ax"><input type="submit" value="Register"></p>
+				</center>
+				</div>
+				<div id="help">
+				<p>Sign in with</p>
+				<table border=1px width="300px">
+				<tr>
+					<td><img arc="../img/google123.jpg">Google</td>
+					<td><img arc="../img/twitter_64-86860edb139fb2f62fc25ef62a4213a5c8b201.jpg">Twitter</td>
+				</tr>
+				<tr>
+					<td><img arc="../img/github_64-84041cd0ea392220da96f0fb9b9473c08485c49.jpg">GitHub</td>
+					<td><img arc="../img/bitbucket_64-267f322b8bedf1a39970bc215a2eb9e862c8.jpg">Bitbucket</td>
+				</tr>
+				</table>
+				 <input type="checkbox" name="caroptions[]" value="Remember me"/>Remember me<br />
+			</div>
+			</div>
+			<div id="family">
+				
+			</div>
+		<div id="home">
+		<h1>GitLab.com</h1>
+		<p>GiLab.com offers free unlimited(private) repositories and unlimit<br/>
+		</p>
+		<ul> 
+			<li><span class="ab">Explore projects on GitLab.com</span>(no login needed)</li>
+			<li><span class="cd">More information about GitLab.com</span></li>
+			<li><span class="ef">GitLab.com Suppport Forum</span></li>
+			<li><span class="gh">GitLab Homepage</span></li>
+		</ul>
+		<p>By signingup for and by signing in to this service you accept our:</p>
+		<ul>
+			<li><span class="hi">Privace policy</span></li>
+			<li><span class="jk">GitLab.com Terms</span></li>
+		</ul>
+		</div>
+	</body>
+</html>

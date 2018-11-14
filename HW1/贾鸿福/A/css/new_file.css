@@ -1,0 +1,142 @@
+table{
+			float: right;
+			margin-right: 40px;
+			margin-top: 20px;
+		}
+			tr{
+				font-family: arial;
+				color: gray;
+			}
+			td{
+				width: 100px;
+			}
+			a:hover{
+				background:darkgray;
+			}
+			h1{
+				background: white;
+			}
+			#who{
+				background-image: url(../js/abc.jpg);
+			}
+			#love{
+				background-image: url(../js/abc.jpg);
+			
+			}
+			#nn{
+				border:200px;
+				font-family: "arial, helvetica, sans-serif";
+				float: right;
+				margin-right: 280px;
+				line-height: 25px;
+				
+				}
+			p{
+				font-size: 110%;
+			}
+			.mn{
+				border:200px;
+				font-size: 200%;
+				line-height: 40px;
+			}
+			button{
+				font-family: "微软雅黑";
+				font-size: 105%;
+				width:200px;
+				height: 40px;
+				background: orangered;
+			}
+			#zz{
+				margin-left:250px;
+			}
+			#qq{
+				float: right;
+				margin-right: 280px;
+				background-image: url(js/abc.jpg);
+				
+			}
+			.qw{
+				font-family: "微软雅黑";
+				font-size: 220%;
+				margin-left: 200px;
+			}
+			.qu{
+				margin-left: 200px;
+			}
+			#ww{
+				width:200px;
+				height: 40px;
+				background: orangered;
+				margin-left: 200px;	
+			}
+			.ll{
+				font-size: 120%;
+				color: black;
+			}
+			#ss{
+			    color: #000000;
+				width:1200px;
+                line-height: 40px;
+           
+			}
+			#xx{
+				margin-top: 200px;
+				margin-right:30px;
+			    margin-left: 30px;
+			}
+			th{
+				text-align: left;
+			}
+			.oo{
+				font-family:" helvetica,";
+				color: #000000;
+				font-size: 110%;
+			}
+			#dd{
+				margin-top:700px;
+				margin-left: 100px;
+				border: 600px;
+			}
+			#dd button{
+				background-color: blueviolet;
+			}
+			.hh{
+				float: right;
+				margin-right:120px;
+			}
+			.cc{
+				font-size:240%;
+				font-family: charcoal;
+			}
+			#ff{
+				line-height:30px;
+				font-size:120%;
+				color: darkslategrey;
+			}
+			#vv{
+				font-family: "微软雅黑";
+				font-size: 105%;
+				width:200px;
+				height: 60px;
+				background-color:  blueviolet;
+			}
+			#cv{
+			    margin-top:100px;
+			}
+			#cv table{
+				width: 1200px;
+				background-color: darkslateblue;
+				line-height: 30px;
+				margin-left:100px;
+			
+			}
+			#cv th{
+				color: white;
+				font-size:130%;
+			}
+			#cv td{
+				color: white;
+			}
+			#cv a:hover{
+				color: #FF4500;
+			}

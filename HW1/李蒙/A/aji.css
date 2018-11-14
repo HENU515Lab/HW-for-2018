@@ -1,0 +1,286 @@
+.fix{
+    width:1550px;
+    height:40px;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: fixed;
+    background-color: white;
+    z-index: 5;
+}
+.tubiao{
+    margin-left: 90px;
+}
+.wenzi{
+    font-size: 20px;
+    position:absolute;
+    top: 0px;
+    left: 650px;    
+}
+.fontsize{
+    font-size: 20px;
+    color:gray;
+}
+.dropdown{
+    float: left;
+    color: gray;
+    padding: 5px 12px;
+    font-size: 17px;
+}
+.dropdown-content {
+    position: absolute;
+    background-color:#ffffff ;
+    display: none;
+    min-width: 16px;
+    z-index: 1;
+}
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color:#616468;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+a:hover, .dropdown:hover{
+    background-color: #dee1e6;
+    display: block;
+    color: #554488;
+}
+.bianse{
+    color:#554488;
+    font-size:17px;
+}
+#beijing{
+    width:1500px;
+    height:680px;
+}
+.background{
+    position:absolute;
+    background-image: url('13345615_083202443153_2.jpg');/*插入图片背景*/
+    width:1500px;
+    height:680px;
+}
+.left{
+    position: absolute;
+    left:200px;
+    top:180px;
+}
+.font-size1{
+    font-size: 40px;
+    color: white;
+}
+.font-size2{
+    font-size: 17px;
+    color: whitesmoke;
+}
+.xiao{
+    position: absolute;
+    top:200px;
+    width:200px;
+    height:50px;
+    border:solid 2px;
+    background-color:#e70000; 
+}
+.button1{
+    position: absolute; 
+    top:200px;
+    left:0px;
+    background-color:rgb(206, 79, 79);
+    padding: 10px 24px; 
+    color:white;     
+}
+.button1:hover{ 
+    background-color:rgb(184, 18, 18);
+    cursor: pointer;
+}
+.color{
+    position: absolute;
+    left:0px;
+    top:280px;
+    color: #dee1e6;
+}
+.right{
+   position: absolute;
+   left:900px;
+   top:180px;
+}
+.bottom{
+    width:1517px;
+    height:80px;    
+}
+.wenzi1{
+    color:gray;
+    font-size:20px;
+    margin-top:90px;
+}
+.left1{
+    position: absolute;
+    left:200px;
+    top:970px;
+}
+.middle1{
+    position: absolute;
+    left:600px;
+    top:970px;
+}
+.right1{
+    position: absolute;
+    right:150px;
+    top:970px;
+}
+.ziti1{
+    font-size:30px;
+    font-family: sans-serif ;
+    text-align:center                                                
+}
+.ziti2{
+    color:gray;
+}
+.ul1 li{
+    list-style-type:inside;
+    color:black;
+}
+.adress{
+    margin-left:180px;
+    margin-top:700px;
+    width:1200px;
+    height:560px;
+    background-color:#f9f9f9;
+}
+.left2{
+    position: absolute;
+    top:1500px;
+    left:250px;
+    font-size:40px;
+}
+.ziti3{
+    font-size:30px;
+    color:black;
+}
+.ziti4{
+    font-size:15px;
+    font-weight: lighter;
+    color:black;
+}
+.button2{
+    background-color:#524182;
+    padding: 10px 24px; 
+    font-size: 20px;
+    color:white;     
+}
+.button2:hover{ 
+    background-color:#333333;
+    cursor: pointer;
+}
+.right2{
+    position: absolute;
+    left:710px;
+    top:1650px;
+}
+.img{
+    position: absolute;
+    top:2215px;
+    left:725px;
+    z-index: 1;
+}
+.mode{
+    position: absolute;
+    top:2250px;
+    width:1500px;
+    height:600px;
+    background-image:url('37d12f2eb9389b504fc751c68535e5dde7116e6d.jpg');
+}
+.hezi1{
+    position: absolute;
+    top:50px;
+    left:50px;
+    width:500px;
+    height:50px；
+}
+.tubiao1{
+    position:absolute;
+    left:535px;
+    top:25px;
+}
+.tubiao2{
+    position: absolute;
+    left:635px;
+    top:25px;
+}
+.tubiao3{
+    position: absolute;
+    left:735px;
+    top:25px;
+}
+.tubiao4{
+    position: absolute;
+    left:835px;
+    top:25px;
+}
+.hezi2{
+    position: absolute;
+    left:170px;
+    top:150px;
+    height:500px;
+    width:1150px;
+}
+.lie1{
+    position: absolute;
+    left:0px;
+    top:0px;
+}
+.lie2{
+    position: absolute;
+    left:200px;
+    top:0px;
+}
+.lie3{
+    position:absolute;
+    left:400px;
+    top:0px; 
+}
+.lie4{
+    position: absolute;
+    left:600px;
+    top:0px;
+}
+.lie5{
+    position: absolute;
+    left:800px;
+    top:0px;
+}
+.lie6{
+    position: absolute;
+    left:1000px;
+    top:0px;
+}
+.sign{
+    font-size:25px;
+    color:white;    
+}
+.ul2 li{
+    list-style-type:none;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.ul2 li:hover{
+    color:#fa7f36;
+}
+.behind{
+    height:30px;
+    width:1500px;
+    position: absolute;
+    top:2850px;
+    left:8px;
+    background-color: #554488;
+    border:red solid 2px；
+}
+.shengming{
+    color:white;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 530px;
+}
+

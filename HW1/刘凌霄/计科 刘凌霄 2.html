@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>https://about-gitlab.com</title>
+		<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" />
+		<style type="text/css">
+			.buttons{position: absolute;height: 10px;width: 100px;z-index: 2;bottom: 20px;left: 150px;}
+			.buttons span{cursor: pointer;float: left;border: 1px solid #fff;width: 10px;border-radius: 50%;background: #333;margin-right: 5px;}
+			img{max-width: 100%;vertical-align: middle;border: 0;}
+			.btn{color: #fff;background-color: #e65328;margin-top: 30px;margin-bottom: 0;font-weight: 400;padding: 4px 30px;font-size: 18px;line-height: 40px;width: auto;
+			display: inline-block;min-width: 140px;text-align: center;vertical-align: middle;background-image: none;border: 1px solid transparent;border-radius: 4px;}
+			.image-border-left{position: absolute;top: 0;left: 0;height: 100%;}
+			.image-border-right{position: absolute;top: 0;right: 0;height: 100%;}
+			.button-group{font-size: 18px;line-height: 40px;min-width: 140px;padding: 4px 30px;display: inline-block;color: #e14329;background-color: #fff;border-color: #fff;
+			margin-top: 20px;background-image: none;margin-bottom: 0;font-weight: normal;text-align: center;vertical-align: middle;white-space: nowrap;border-radius: 4px;}
+			.gary-gruver-wrapper-1{background-size: cover;position: relative;background: url(https://about.gitlab.com/images/home/unsplash-software-team.png) center center no-repeat;height: 600px;width: 1800px;margin: 0 auto;}
+			.hero-img-container{float: left;order: 0;flex-shrink: 0;height: auto;justify-content: center;align-content: center;align-items: center;white-space: normal;
+			width: 485px;height: 270px;position: absolute;left: 200px;top: 50px;}
+			.hero-container{max-width: 560px;height: 310px;margin: 40px auto;order: 1;justify-content: center;float: left;padding: 10px;padding-left: 0;margin-top: 10px;
+			position: absolute;right: 100px;}
+			.description{width: 550px;height: 70.2px;line-height: 1.5;color: rgba(255,255,255,0.75);font-size: 18px;padding: 10px;padding-left: 0;cursor: pointer;box-sizing: border-box;
+			font-weight: 400;}
+			.button{padding: 4px 30px;font-size: 18px;font-weight: 400;margin-top: 80px;margin-bottom: 20px;color: rgba(225,225,225,0.75);
+			background-color: #e65328;line-height: 40px;min-width: 140px;display: inline-block;text-align: center;vertical-align: middle;border: 1px solid transparent;
+			white-space: nowrap;border-radius: 4px;cursor: pointer;}
+			h1{font-family: inherit;font-weight: 600;line-height: 1.2;color:rgba(255,255,255,0.75);width: 560px;height: 100.8px;}
+			.footer-logo{position: absolute;top: -36px;left: 50%;margin-left: -32.5px;}
+			.footer .footer-social{position: absolute;left: 41%;}
+			.footer .footer-social li{list-style: none;float: left;padding-left: 20px;}
+			.sign-in-container li a{color: #548;padding: 0 10px;align-items: center;font-weight: 600;justify-content: center;height: 100%;width: 100%;}
+			.sign-in-container li{list-style: none;}
+			.navbar-left{float: left;width: 150px;height: 30px;padding-left: 20px;padding-right: 20px;color: #828282;font-size: 28px;}
+			.navbar-right{float: right;}
+			.navbar li{padding: 4px 0;float: left;}
+			.navbar a{color: #828282;background-color: transparent;}
+			.navbar a:hover{color:#6b4fbb;}
+			.navbar{position: sticky;width: 100%;top: 0;height: 58px;box-shadow: 0 2px 4px rgba(0,0,0,0.1);padding: 0 80px;background-color: #fff;
+			font-size:18px;box-sizing: border-box;display: flex;align-items: center;justify-content: space-between;z-index: 1000;transition: 0.2s;}
+			a{text-decoration: none;border-radius: 3px;background-color: transparent;}
+			.footer{background-color:#6b4fbb;padding-top: 50px;margin-top: 80px;padding-bottom: 50px;font-family: inherit;color: #fff;position: relative;}
+			.content{width: 1200px;height: 550px;padding-left: 15px;padding-right: 15px;background-color: #fff;margin: 0 auto;}
+			.gke-layer{padding:20px 20px;height:319px;width:300px;float: left;}
+			.picture{align-items: center;padding: 20px 20px;width: 600px;height: 319px;float: left;}
+			#button{border: 1px solid #473281;background-color: #403368;display: inline-block;padding: 4px 30px;font-size: 18px;font-weight: normal;line-height: 40px;min-width: 140px;text-align: center;
+			vertical-align: middle;background-image:none ;white-space: nowrap;box-sizing: border-box;color: #fff;}
+			.container{width: 750px;height: 675.7px;padding-left: 15px;padding-right: 15px;}
+			#main{width: 80%;height: 455.7px;margin-top: 100px;margin-bottom: 120px;margin-left: 10%;}
+			.navbar .navbar-right ul li a{color:#828282;padding:0 10px;display:flex;align-content: center; justify-content: center;}
+			.navbar .navbar-right ul li a:hover{color:#6b4fbb;background-color: lightgrey;background-size: 50px;}
+			.navbar .navbar-right ul li{float: left;list-style: none;line-height:1.5 ;position: relative;padding: 12px 18px;display: flex;
+			text-align: -webkit-match-parent;}
+			.navbar .navbar-right ul  li:hover ul{display: block;width: 200px;}
+			.navbar .navbar-right ul li ul{float: none;background-color:#fff;position: absolute;left: 0;top: 40px;display: none;box-shadow: 0 2px 4px rgba(0,0,0,0.1);text-align: -webkit-match-parent;}
+			.nacbar .navbar-right ul li ul li{float: none;background-color:#fff;text-align: left;}
+			.left{float: left;width:30%;height: 455.7px;}
+			.middle{float:left;width:30%;height: 455.7px;margin-left: 50px;}
+			.right{float: left;width:30%;height: 455.7px;margin-left:50px;}
+			.footer a{color: inherit;font-weight: 400;background-color: transparent;font-size: 16px;box-sizing: border-box;line-height: 1.5;}
+			.footer a:hover{color: darkorange;}
+			.animated-container{width: 1200px;height: 750px;position: absolute;top: 100px;left: 13%;}
+			.animated-content{width:1200px;height: 967.6px;padding-left: 15px;padding-right: 15px;margin-left: auto;margin-right: auto;}
+			body{font-family: sans-serif;line-height: 1.5;background-color: #f9f9f9;}
+			li{list-style-type:disc;color: black;margin-top: 9px;text-align: -webkit-match-parent;}
+		</style>
+	</head>
+	<body>
+		<div class="navbar">
+			<div class="navbar-left">
+		<img src="http://2.pic.pc6.com/thumb/up/2015-10/20151016172824_160_160.png" width="32.4px"height="29.85px"/>
+		Gitlab
+		</div>
+		<div class="navbar-right">
+			<ul>
+				<li>
+		<a href="https://about.gitlab.com/why/"style="padding: 0 10px;">
+			Why Gitlab?
+		</a>
+		<ul>
+			<li><a href="https://about.gitlab.com/product/">Product</a></li>
+			<li><a href="https://about.gitlab.com/solutions/">Solutions</a></li>
+			<li><a href="https://about.gitlab.com/service/">Service</a></li>
+			<li><a href="https://about.gitlab.com/stages-devops-lifecycle/">Devops lifecycle</a></li>
+			<li><a href="https://about.gitlab.com/devops-tools/">Devop tools</a></li>
+			<li><a href="https://about.gitlab.com/is-it-any-good/">Is it any good?</a></li>
+			<li><a href="https://about.gitlab.com/get-started/">Get started</a></li>
+		</ul>
+		</li>
+		<li>
+			<a href="https://about.gitlab.com/resources/">
+				Resources
+			</a>
+			<ul>
+			<li><a href="https://about.gitlab.com/blog/">Blog</a></li>
+			<li><a href="https://about.gitlab.com/company/contact/">Newsletter</a></li>
+			<li><a href="https://about.gitlab.com/events/">Events</a></li>
+			<li><a href="https://about.gitlab.com/topics/">Topics</a></li>
+			<li><a href="https://about.gitlab.com/training/">Training</a></li>
+			<li><a href="https://docs.gitlab.com/">Docs</a></li>
+			<li><a href="https://about.gitlab.com/install/">Install</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="https://about.gitlab.com/community/">
+				Community
+			</a>
+			<ul>
+				<li><a href="https://about.gitlab.com/customers/">Customers</a></li>
+				<li><a href="https://about.gitlab.com/contributing">Contribute</a></li>
+				<li><a href="https://about.gitlab.com/partners/">Partners</a></li>
+				<li><a href="https://about.gitlab.com/resellers/">Resellers</a></li>
+				<li><a href="https://gitlab.com/explore">Explore repositories</a></li>
+				<li><a href="https://about.gitlab.com/direction/">Direction</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="https://about.gitlab.com/get-help/">
+				Support
+			</a>
+			<ul>
+				<li><a href="https://about.gitlab.com/get-help/">Get help</a></li>
+				<li><a href="https://about.gitlab.com/sales/">Contact Sales</a></li>
+				<li><a href="https://about.gitlab.com/support#contact-support">Contact Support</a></li>
+				<li><a href="https://about.gitlab.com/support/">Support options</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="https://about.gitlab.com/pricing/">
+				Pricing
+			</a>
+			<ul>
+				<li><a href="https://about.gitlab.com/free-trial">Free trial</a></li>
+				<li><a href="https://about.gitlab.com/pricing/#self-managed">Self-managed</a></li>
+				<li><a href="https://about.gitlab.com/pricing/#gitlab-com">Gitlab.com</a></li>
+			</ul>
+		</li>
+		
+		
+		
+		
+		<li>
+			<a href="https://about.gitlab.com/company/">
+				Company
+			</a>
+			<ul>
+				<li><a href="https://about.gitlab.com/jobs/">Jobs</a></li>
+				<li><a href="https://about.gitlab.com/company/culture/">Culture</a></li>
+				<li><a href="https://about.gitlab.com/press/">Press</a></li>
+				<li><a href="https://about.gitlab.com/analysts/">Analysts</a></li>
+				<li><a href="https://about.gitlab.com/handbook/">Handbook</a></li>
+				<li><a href="https://about.gitlab.com/strategy/">Strategy</a></li>
+			</ul>
+		</li>
+		</ul>
+		</div>
+		<li style="list-style: none;">
+			<i class="fa fa-search"style="color: #6b4fbb;"></i>
+		</li>
+		
+		<div class="sign-in-container">
+		<li>
+			<a href="https://gitlab.com/users/sign-in">Sign in</a>
+		</li>
+		<li>
+			<a href="https://gitlab.com/users/sign-in#register-pane">Register</a>
+		</li>
+		</div>
+		</div>
+		
+		
+		
+		<div class="gary-gruver-wrapper-1">
+			<div class="hero-img-container">
+		<a href="https://about.gitlab.com/resources/scaling-enterprise-devops">
+			<img src="https://about.gitlab.com/images/webcast/gruver-cover_2x.jpg" width="300px" height="400px"/>
+		</a>
+		</div>
+		<div class="hero-container">
+		<a href="https://about.gitlab.com/resources/scalling-enterprise-devops">
+			<h1> Starting and Scalling DevOps in the Enterprise</h1>
+		</a>
+		<p class="description">Sharing his pioneering insight on how organizations can transform their software development and delivery processes, Gary Gruver provides a tactical framework to implement DevOps principles.
+		</p>
+		<div class="button">Download the book</div>
+		</div>
+		</div>
+		<div class="buttons">
+			<span ></span>
+			<span ></span>
+			<span ></span>
+			<span ></span>
+			<span ></span>
+			<span ></span>
+			<span ></span>
+			<span ></span>
+			<span ></span>
+		</div>
+		<div id="main">
+		<div class="left">
+		<img src="https://about.gitlab.com/images/home/pillar-create.svg" width="78px"height="80px"/>
+		<h3 style="font-size: 28px;font-weight: 600;font-family: inherit;margin-top: 27px;margin-bottom: 13.5px;line-height: 1.2;color: inherit;box-sizing: border-box;">
+			Visible
+			</h3>
+			<p style="font-style: italic;color: #828282;font-size: 18px;font-weight: 400;padding: 0 0 13.5px;box-sizing: border-box;width: 206.663px 56.8px;">
+				See everything that matters
+			</p>
+			<ul style="font-size: 18px;font-weight: 400;box-sizing: border-box;">
+				<li>Stay in your flow</li>
+				<li>Don't wait on syncing</li>
+				<li>Manage projects,not tools</li>
+				<li>Improve cycle time</li>
+			</ul>
+			</div>
+			<div class="middle">
+			<img src="https://about.gitlab.com/images/home/pillar-speed.svg" width="78px"height="80px"/>
+			<h3 style="font-size: 28px;font-weight: 600;font-family: inherit;margin-bottom: 13.5px;line-height: 1.2;color: inherit;box-sizing: border-box;">
+				Effcient
+			</h3>
+			<p style="font-style: italic;color: #828282;font-size: 18px;font-weight: 400;padding: 0 0 13.5px;box-sizing: border-box;">
+				Collaborate without waiting
+			</p>
+			<ul style="font-size: 18px;font-weight: 400;box-sizing: border-box;">
+				<li>Start immediately</li>
+				<li>Work concurrently</li>
+				<li>No more handoffs</li>
+			</ul>
+			</div>
+			<div class="right">
+			<img src="https://about.gitlab.com/images/home/pillar-scale.svg"width="78px"height="80px" />
+			<h3 style="font-size: 28px;font-weight: 600;font-family: inherit;margin-bottom: 13.5px;line-height: 1.2;color: inherit;box-sizing: border-box;">
+				Governed
+			</h3>
+			<p style="font-style: italic;color: #828282;font-size: 18px;font-weight: 400;padding: 0 0 13.5px;box-sizing: border-box;">
+				Develop and operate with confidence
+			</p>
+			<ul style="font-size: 18px;font-weight: 400;box-sizing: border-box;">
+				<li>Security and compliance already built-in</li>
+				<li>Simplify user management</li>
+				<li>Expedite auditing</li>
+				<li>Act with certainty</li>
+			</ul>
+			</div>
+			</div>
+			<div class="content">
+			<div class="gke-layer" >
+			<h2 style="font-size: 34px;margin-bottom: 20px;font-weight: 600;font-family: inherit;color: inherit;line-height: 1.2;box-sizing: border-box;">
+				The easiest way to deploy cloud native appliciations
+			</h2>
+			<p style="margin-bottom: 13.5px;font-size: 18px;line-height: 1.5;font-family: sans-serif;color: #333333;box-sizing: border-box;">
+				GitLab's Kubernetes integration makes it easy to create and configure clusters.With Auto Devops,GitLab automatically configures CI/CD pipelines to build,test,verify,and deploy applications to Kubernetes.
+			</p>
+			<div id="button">
+				Learn more
+			</div>
+			</div>
+			<div class="picture">
+			<img src="https://about.gitlab.com/images/home/kubernetes.png" height="319px"/>
+			</div>
+	        </div>
+			<div class="footer">
+				<div class="footer-logo">
+				<img src="http://2.pic.pc6.com/thumb/up/2015-10/20151016172824_160_160.png"width="65px" height="60px"/>
+				</div>
+				<div class="animated-content">
+				<ul class="footer-social">
+					<li>
+						<a href="https://twitter.com/gitlab">
+							<i class="fa fa-twitter" style="font-size: 26px;color: #fff;"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/gitlab">
+							<i class="fa fa-facebook" style="font-size: 26px;color: #fff;"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.youtube.com/channel/UCnMGQ8QHMAnVIsI3xJrihhg">
+							<i class="fa fa-youtube" style="font-size: 26px;color: #fff;"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/company/gitlab-com">
+							<i class="fa fa-linkedin"style="font-size: 26px;color: #fff;"></i>
+						</a>
+					</li>
+				</ul>
+				
+				
+				
+				<div class="animated-container">
+				<ul style="float: left;width: 200px;margin-bottom: 15px;padding-left: 15px;padding-right: 15px;">
+				<h3 style="font-weight: 600;font-size:28px ;margin-bottom:15px;line-height:1.2;">
+					Why GitLab?
+				</h3>
+				   
+				   
+				<a href="https://about.gitlab.com/product">
+				    Product
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/solutions">
+					Solutions
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/services">
+					Services
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/stages-devops-lifecycle">
+					Devops lifecycle
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/devops-tools">
+					Devops tools
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/is-it-any-good">
+					Is it any good?
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/releases">
+					Releases
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/pricing">
+					Pricing
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/get-started">
+					Get started
+				</a>
+				</ul>
+				<ul style="float: left;width: 200px;margin-bottom: 15px;padding-left: 15px;padding-right:15px ;">
+				<h3 style="font-weight: 600;font-size: 28px;margin-bottom: 15px;line-height:1.2 ;">
+					Resources
+				</h3>
+				
+				<a href="https://about.gitlab.com/resources">
+					All resources
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/blog">
+					Blog
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/company/contact">
+					Newsletter
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/events">
+					Events
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/topics">
+					Topics
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/training">
+					Training
+				</a>
+				<br />
+				<a href="https://docs.gitlab.com/">
+					Docs
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/install">
+					Install
+				</a>
+				</ul>
+				<ul style="float: left;width: 200px;margin-bottom: 15px;padding-left: 15px;padding-right: 15px;">
+				<h3 style="font-weight: 600;font-size: 28px;margin-bottom: 15px;line-height: 1.2;">
+					Community
+				</h3>
+				
+				<a href="https://about.gitlab.com/customers">
+					Customers
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/contributing">
+					Contribute
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/partners">
+					Partners
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/resellers">
+				Resellers	
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/explore">
+					Explore repositories
+				</a>
+				<br />
+				<a href="https://gitlab.com/groups/gitlab-org">
+					Source code
+				</a>
+				<br />
+				<a href="https://shop.gitlab.com">
+					Shop
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/direction">
+					Direction
+				</a>
+				<br />
+				<a href="https://contributors.gitlab.com">
+					Contributors
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/core-team">
+					Core team
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/community/mvp">
+					Hall of fame
+				</a>
+				</ul>
+				<ul style="float: left;width: 200px;margin-bottom: 15px;padding-left: 15px;margin-right: 15px;">
+				<h3 style="font-weight: 600;font-size: 28px;margin-bottom: 15px;line-height: 1.2;">
+					Support
+				</h3>
+				
+				<a href="https://about.gitlab.com/get-help/">
+					Get help
+				</a>
+				<br />
+				<a href="https://about.gitlab.sales/">
+					Contact Sales
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/support/#contact-support">
+					Contact Support
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/support/">
+					Support options
+				</a>
+				<br />
+				<a href="https://status.gitlab.com">
+					Status
+				</a>
+				</ul>
+				<ul style="float: left;width: 200px;margin-bottom: 15px;padding-left: 15px;margin-right: 15px;">
+				<h3 style="font-weight: 600;font-size: 28px;margin-bottom: 15px;line-height: 1.2;">
+					Company
+				</h3>
+				
+				<a href="https://about.gitlab.com/company/">
+					About
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/what-is-gitlab/">
+					What is Gitlab
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/jobs/">
+					Jobs
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/company/culture/">
+					Culture
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/company/team/">
+					Team
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/press/">
+					Press
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/analysts/">
+					Analysts
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/handbook/">
+					Handbook
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/security/">
+					Security
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/company/contact/">
+					Contact
+				</a>
+				<br />
+				<a href="https://about.gitlab.com/terms/">
+					Terms
+				</a>
+				<br />
+				<a href="https://about.gitlab.com./privacy/">
+					Privacy
+				</a>
+				</ul>
+				</div>
+				</div>
+			</div>
+	</body>
+</html>

@@ -1,0 +1,91 @@
+.bg3 img
+{
+	width: 400px;
+	height: 400px;
+	margin-bottom: 30px;
+	margin-right: -100px;
+
+}
+.bg3
+{
+	float: right;
+	text-align: right;
+	padding-right: 100px;
+}
+.bg3 span
+{
+	color: #29B6FF;
+}
+.bg3 a
+{
+	color: #29B6FF;
+}
+.bg3 button 
+{
+	transform: skewX(-30deg);
+	padding: 10px 40px;
+	background-color: #29B6FF;
+	border: none;
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-block;
+	outline:0 none !important;
+	blr:expression(this.onFocus=this.blur());
+	box-shadow: 20px 0px 0px 0px #1f6091, -20px 0px 0px 0px #1f6091;
+}
+.bug2
+{
+	transform: skewX(30deg);
+	color: #FFFFFF;
+}
+.carousel-caption a
+{
+	text-decoration: underline;
+}
+.bg2 img
+{
+	width: 400px;
+	height: 400px;
+	margin-bottom: 10px;
+	margin-left: -100px;
+}
+.bg2
+{
+	float: left;
+	text-align: left;
+	padding-left: 100px;
+}
+.bg2 span
+{
+	color: #29B6FF;
+}
+.bg2 a
+{
+	color: #29B6FF;
+}
+.bg2 button 
+{
+	transform: skewX(-30deg);
+	padding: 10px 40px;
+	background-color: #29B6FF;
+	border: none;
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-block;
+	outline:0 none !important;
+	blr:expression(this.onFocus=this.blur());
+	box-shadow: 20px 0px 0px 0px #1f6091, -20px 0px 0px 0px #1f6091;
+}
+.bg3 img:hover
+{
+	transform: scale(1.2);
+} 
+.bg2 img:hover
+{
+	transform: scale(1.2);
+} 
+.bg1 h3
+{
+	transform: skewX(-10deg);
+	color: #29B6FF;
+}

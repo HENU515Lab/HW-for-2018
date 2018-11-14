@@ -1,0 +1,128 @@
+.top{
+	text-align: center;
+	position: fixed;
+	width: 1520px;
+	top: 0px;
+	border-bottom: 1px solid black;
+}
+.one{
+	color: black;
+}
+.content{
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	margin-top: 20px;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-bottom: 40px;
+	padding: 20px;
+	height: 600px;
+}
+.footer{
+	position: fixed;
+	border-top: 1px solid black;
+	width: 1520px;
+	height: 40px;
+	bottom: 0px;
+}
+.di ul li{
+	color: blue;
+	list-style: none;
+	margin-left: 20px;
+	float: left;
+}
+.left{
+	padding: 5px;
+	margin: 0px;
+	width: 520px;
+	float: left;
+}
+.left ul li{
+	color:blue;
+	font-size: 20px;
+	padding: 5px;
+}
+.right{
+	float: right;
+	border: 1px solid black;
+	margin-top: 40px;
+	height: 410px;
+	width: 330px;
+}
+.shang{
+	border: 1px solid none;
+	height: 30px;
+}
+.shang ul{
+	padding: 0px;
+	margin: 0px;
+}
+.shang ul li{
+	margin: 0px;
+	padding-top: 3px;
+	padding-bottom: 4px;
+	padding-left: 51.3px;
+	padding-right: 54.1px;
+	border-top:0px ;
+	border: 1px solid black;
+	float: left;
+	list-style: none;
+}
+.zhong{
+	margin: 0px;
+	padding:20px;
+	height: 360px;
+	border-left: 20px;
+	border-right: 20px;
+}
+.zhong p{
+	margin: 0px;
+	font-size: 13px;
+}
+.xia{
+	margin-top: 10px;
+	border: 1px solid black;
+	height: 180px;
+}
+.zh{
+	margin: 5px;
+	padding: 5px;
+	width: 310px;
+	height: 70px;
+}
+.goggle{
+	margin: 2px;
+	padding: 2px;
+	border: 1px solid black;
+	width: 130px;
+	float: left;
+}
+.twitter{
+	margin: 2px;
+	padding: 2px;
+	border: 1px solid black;
+	width: 130px;
+	float: right;
+}
+.github{
+	margin: 2px;
+	padding: 2px;
+	border: 1px solid black;
+	width: 130px;
+	float: left;
+}
+.bitbucket{
+	border: 1px solid black;
+	padding: 2px;
+	margin: 2px;
+	width: 130px;
+	float: right;
+}
+h5{
+	margin-left: 10px;
+}
+.xuan{
+	padding: 5px;
+	height: 20px;
+	float: left;
+}
