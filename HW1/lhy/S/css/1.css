@@ -1,0 +1,284 @@
+.lunbo{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.yidong2 {
+	position: absolute;
+	left: 200px;
+	top: 0px;
+}
+
+.beijin1 {
+	opacity: 0.5;
+}
+
+body {
+	background-size: auto;
+	100px
+}
+
+.yidong3 {
+	position: absolute;
+	top: 180px;
+	left: 200px;
+}
+
+.yidong4 {
+	position: absolute;
+	top: 180px;
+	left: 700px;
+}
+
+.caidai1 {
+	border: 0px;
+	height:30px ;
+	width: 200px;
+	background-color: crimson;
+}
+
+.yidong5 {
+	position: absolute;
+	top: 1000px;
+	left: 200px;
+}
+
+.heibu {
+	position: absolute;
+	top: 0px;
+	height: 800px;
+	width: 1280px;
+	background-color: black;
+}
+
+.yidong6 {
+	position: absolute;
+	top: 1000px;
+	left: 600px;
+}
+
+.yidong7 {
+	position: absolute;
+	top: 1000px;
+	left: 1000px;
+}
+.yidong8{background-color: blueviolet;
+	width: 1280px;
+	height: 800px;
+	position: absolute;
+	top: 1900px;
+	
+}
+.yidong9{position: absolute;
+top: 200px;
+left:140px;
+	
+}
+.zi1{
+	position: absolute;
+	top: 260px;
+	left: 140px;
+}
+.zi2{position: absolute;
+top: 7px;
+left: 210px;
+	
+}
+.zi3{
+	position: absolute;
+	top: 7px;
+	left: 380px;
+}
+.zi4{
+	position: absolute;
+	top: 7px;
+	left: 600px;
+}
+.zi5{border: 0;
+width: 100px;
+	position: absolute;
+	top: 7px;
+	left: 730px;
+}
+.yidong10{position: absolute;
+top: 1400px;
+left: 200px;
+	
+}
+.beijin2{background-color: #8A2BE2;
+}
+.yidong11{position: absolute;
+
+	left: 500px;
+	top: 50px;
+}
+.tupian1{
+	position: absolute;
+	left: 600px;
+}
+.tupian2{
+	position: absolute;
+	left: 550px;
+	top: 20px;
+}
+
+.xiala1 {
+				position: relative;
+				display: inline-block;
+			}
+			
+			.xiala2 {
+				position: absolute;
+				background-color: aliceblue;
+				display: none;
+				min-width: 30px;
+				min-height: 30px;
+				box-shadow: #F0F8FF;
+			}
+			
+			.xiala1:hover .xiala2 {
+				display: block;
+			}
+			
+			.xiala3 {
+				position: relative;
+				display: inline-block;
+			}
+			
+			.xiala4 {
+				position: absolute;
+				display: none;
+				background-color: #F0F8FF;
+				min-height: 30px;
+				min-width: 30px;
+			}
+			
+			.xiala3:hover .xiala4 {
+				display: block;
+			}
+			
+			.xiala5 {
+				position: relative;
+				display: inline-block;
+			}
+			
+			.xiala6 {
+				position: absolute;
+				display: none;
+				background-color: #F0F8FF;
+				min-width: 30px;
+				min-height: 30px;
+			}
+			
+			.xiala5:hover .xiala6 {
+				display: block;
+			}
+			
+			.xiala7 {
+				position: relative;
+				display: inline-block;
+			}
+			
+			.xiala8 {
+				position: absolute;
+				display: none;
+				background-color: #F0F8FF;
+				min-height: 30px;
+				min-width: 30px;
+			}
+			
+			.xiala7:hover .xiala8 {
+				display: block;
+			}
+			
+			.xiala9 {
+				position: relative;
+				display: inline-block;
+			}
+			
+			.xiala10 {
+				position: absolute;
+				display: none;
+				background-color: #F0F8FF;
+				min-height: 30px;
+				min-width: 30px;
+			}
+			
+			.xiala9:hover .xiala10 {
+				display: block;
+			}
+* {
+            margin:0;
+            padding:0;
+        }
+        a{
+            text-decoration: none;
+        }
+          .container {
+            position: relative;
+            top: -100px;
+            left: -40px;
+            width: 1280px;
+            height: 800px;
+            margin:100px auto 0 auto;
+            box-shadow: 0 0 5px green;
+            overflow: hidden;
+        }     
+         .wrap {
+            position: absolute;
+            width: 8960px;
+            height: 800px;
+            z-index: 1;
+        }
+          .container .wrap img {
+            float: left;
+            width: 1280px;
+            height: 800px;
+        }
+        
+       .container .buttons {
+            position: absolute;
+            right: 150px;
+            bottom:20px;
+            width: 100px;
+            height: 10px;
+            z-index: 2;
+        }
+
+        .container .buttons span {
+            margin-left: 5px;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: green;
+            text-align: center;
+            color:white;
+            cursor: pointer;
+        }
+        .container .buttons span.on{
+            background-color: red;
+        }
+  .container .arrow {
+            position: absolute;
+            top: 35%;
+            color: green;
+            padding:0px 14px;
+            border-radius: 50%;
+            font-size: 50px;
+            z-index: 2;
+            display: none;
+        }
+        .container .arrow_left {
+            left: 10px;
+        }
+        .container .arrow_right {
+            right: 10px;
+        }
+        .container:hover .arrow {
+            display: block;
+        }
+        .container .arrow:hover {
+            background-color: rgba(0,0,0,0.2);
+        }

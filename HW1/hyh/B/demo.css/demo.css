@@ -1,0 +1,131 @@
+body{
+	width: 1200px;
+	height: 1070px;
+	position: relative;
+	margin-top:0;
+	left: 0;
+}
+.b{float:left}
+.c{float:left}
+.e{float:left}
+.f{float:left}
+.i{float:left}
+.j{float:left}
+.h{float:left}
+.k{float:left}
+.m{float:left}
+.l{float:left}
+.o{float:left}
+.p{float:left}
+.a{position: fixed;
+	border-bottom:1px solid #E0E0E0;
+	height:30px;
+	left: 0;
+	top:0;
+	margin:0;
+    padding:0;
+    width: 100%;
+    background: white;
+}
+			
+.b{border:1px solid white;
+    margin-left:70px;
+    margin-top:100px;
+	padding:0;
+	height:823px;
+	width:520px;
+	font size=10px;
+}   
+.c{border:1px solid #E0E0E0;
+	padding-top:15px;
+	padding-bottom:0px;
+	margin:0; 
+	height:35px;
+	width:230px;
+}
+.d{width:432px;
+    height:570px;
+	border:1px solid #E0E0E0;
+	padding:15px;
+	padding-top:70px;
+}
+.g{width:445px;
+    height:250px;
+    border:1px solid #E0E0E0;
+    margin-top:40px;
+    padding:10px;
+}
+.button{background-color:green;
+	        width:430px;
+	        height:50px;
+	        margin-top:12px;
+	        color:white;
+}
+.h{width:200px;
+    height:50px;
+    border:1px solid white;
+    padding:0px;
+    margin:10px;
+           }
+        
+         .i{border:1px solid white;
+            width:40px;
+            height:21px;
+            margin-top:5px;
+           }
+          .j{border:1px solid white;
+             width:40px;
+             height:21px;
+             margin-top:5px;
+             }
+           .k{border:1px solid white;
+             width:40px;
+             height:21px;
+             margin-top:5px;
+             }
+           .m{border:1px solid white;
+             width:40px;
+             height:21px;
+             margin-top:5px;
+             }
+           
+           .l{width:200px;
+           height:50px;
+           border:1px solid white;
+           padding:0px;
+           margin:10px;
+           }
+          .o{border:1px solid white;}
+          
+          .q{padding-left:50px;
+             width: 100%;
+             height:80px;
+             left:0;
+             right:0;
+             bottom:0;
+             border-bottom:2px solid #E0E0E0;
+             position:absolute;
+             }
+           .p{
+           	border:1px solid white;
+             padding:20px;
+             margin-bottom:6px;
+             margin-top:95px;
+             width:120px;
+             height:30px;
+             color:blue;}
+           .ul{
+           	margin-left:15px;
+           	 border:1px solid white;
+           }
+           .input{width:425px;
+           height:30px;}
+.button2{background-color:white;
+         height:50px;
+         width:200px;}
+
+
+a{
+	text-decoration:none;
+	color: blue;
+	}

@@ -1,0 +1,339 @@
+.zong
+{
+	height: 2000px;
+	width: 1500px;
+	margin: 0 auto;
+}
+.zong1
+{
+	height: 80px;
+}
+.yi
+{
+	width: 100px;
+	color: gray;
+	font-size: 23px;
+	position: relative;
+	left: 100px;
+}
+.er
+{
+	width: 660px;
+	position: relative;
+	left: 600px;
+	bottom: 30px;
+}
+.img1
+{
+	position: relative;
+	left: 40%;
+	bottom: 23px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+.a1,.a2
+{
+	color: purple;
+	position: relative;
+	left: 40%;
+	bottom: 31px;
+	
+}
+a{
+            text-decoration: none;
+        }
+        .container {
+        	opacity: 0.5;
+            position: relative;
+            top: -100px;
+            width: 1500px;
+            height: 600px;
+            margin:100px auto 0 auto;
+            box-shadow: 0 0 5px green;
+            overflow: hidden;
+        }
+        .container .wrap {
+            position: absolute;
+            width: 10500px;
+            height: 600px;
+            z-index: 1;
+        }
+        .container .wrap img {
+            float: left;
+            width: 1500px;
+            height: 600px;
+        }
+        .container .buttons {
+            position: absolute;
+            right: 5px;
+            bottom:40px;
+            width: 150px;
+            height: 10px;
+            z-index: 2;
+        }
+        .container .buttons span {
+            margin-left: 5px;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: green;
+            text-align: center;
+            color:white;
+            cursor: pointer;
+        }
+        .container .buttons span.on{
+            background-color: red;
+        }
+        .container .arrow {
+            position: absolute;
+            top: 35%;
+            color: green;
+            padding:0px 14px;
+            border-radius: 50%;
+            font-size: 50px;
+            z-index: 2;
+            display: none;
+        }
+        .container .arrow_left {
+            left: 10px;
+        }
+        .container .arrow_right {
+            right: 10px;
+        }
+        .container:hover .arrow {
+            display: block;
+        }
+        .container .arrow:hover {
+            background-color: rgba(0,0,0,0.2);
+        }
+.liu
+{
+	position: relative;
+	left: 900px;
+	bottom: 480px;
+	max-height: 360px;
+    max-width: 360px;
+
+}
+.qi
+{
+	height: 400px;
+}
+.qi1
+{
+	width: 20%;
+	height: 50%;
+	position: relative;
+	left: 10%;
+}
+.qi11
+{
+    font-size: 30px;
+   
+}
+.qi12
+{
+	color:gray;
+	font-style: italic;
+}
+.qi2
+{
+	width: 20%;
+	height: 50%;
+	position: relative;
+	left: 40%;
+	bottom: 200px;
+}
+.qi3
+{
+	width: 40%;
+	height: 50%;
+	position: relative;
+	left: 70%;
+	bottom: 400px;
+}
+.ba
+{
+	position: relative;
+	right: 5%;
+	bottom: 300px;
+}
+.ba1
+{
+	width: 50%;
+	height: 300px;
+	position: relative;
+	left: 45%;
+}
+.ba2
+{
+	font-size: 30px;
+	font-weight: 550;
+	width: 20%;
+	height: 50%;
+	position: relative;
+	left: 15%;
+}
+.ba3
+{   
+	width: 400px;
+	font-size: 20px;
+	position: relative;
+	left: 15%;
+}
+.jiu
+{
+	background-color: #6b4fbb;
+	width: 1500px;
+	height: 700px;
+	position: relative;
+	bottom: 260px;
+}
+.jiu1
+{
+	position: relative;
+	bottom: 5%;
+	left: 50%;
+}
+.jiu2
+{
+	width: 20%;
+	position: relative;
+	left: 43%;
+}
+.jiu3
+{
+	width: 70%;
+	font-size: 25px;
+	color: white;
+	position: relative;
+	left: 25%;
+	top: 5%;
+}
+.jiu41
+{ 
+	width:10%;
+	position: relative;
+	left: 27%;
+	top: 10%;
+}
+.a3
+{
+	font-size: 14px;
+	color: white;
+}
+.jiu42
+{
+	width: 8%;
+	position: relative;
+	left: 40%;
+	bottom: 44%;
+}
+.a4
+{
+	font-size: 14px;
+	color: white;
+}
+.jiu43
+{
+	width: 8%;
+	position: relative;
+	left: 51%;
+	bottom: 93%;
+}
+.a5
+{
+	font-size: 14px;
+	color: white;
+}
+.jiu44
+{
+	width: 8%;
+	position: relative;
+	left: 62%;
+	bottom: 161%;
+}
+.a6
+{
+	font-size: 14px;
+	color: white;
+}
+.jiu45
+{
+	width: 8%;
+	position: relative;
+	left: 73%;
+	bottom: 192%;
+}
+.a7
+{
+	font-size: 14px;
+	color: white;
+}
+.shi
+{
+	background-color: midnightblue;
+	width: 1500px;
+	height: 30px;
+	position: relative;
+	bottom: 14%;
+	color: white;
+}
+.a8
+{
+	color: white;
+	text-decoration: underline;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.xiala:hover .xialanei
+{
+	display: block;
+}
+.xiala
+{
+	position: relative;
+	left: 40%;
+	bottom: 30px;
+	display: inline-table;
+}	
+.xialanei
+{
+	display: none;
+	z-index: 1;
+	min-width: 160px;
+	position: absolute;
+	margin-left:21px;
+	background-color: #f9f9f9;
+}
+.xialanei p a:hover
+{
+	color: plum;
+}
+.sousuo
+{
+	border: solid red;
+	width: 300px;
+	position: relative;
+	bottom: 55%;
+	left: 82%;
+}
+.wz
+{
+	width: 300px;
+	position: absolute;
+	top: 280px;
+	left: 400px;
+}
+.xiaotupian
+{
+	position: absolute;
+	top:220px ;
+	right: 350px;
+}

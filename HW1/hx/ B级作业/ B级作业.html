@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Sign in.Gitlab</title>
+		<div class="sticky" id="header" style="background-color:white; text-align:center; clear:both;">
+		<img src="1.png"></div>
+	    <style type="text/css">
+	        img {height:25px;
+			     width:25px; }
+			body {font-family:Helvetica Neue;}
+			h1 {font-family:Helvetica Neue;
+			    font-size:35px;
+			    font-weight:normal; }
+			h2 {font-family:Helvetica Neue;
+			    color:black;
+			    font-size:12px;
+			    }
+			h3 {font-family:Helvetica Neue;
+			    color:#A0A0A0;
+			    font-size:12px;
+			    font-weight:normal;}  
+			h4 {font-family:Helvetica Neue;
+			    color:black;
+			    font-size:12px;
+			    font-weight:normal;
+			    }  
+			p {font-size:16px;
+			   color:#b3b3b3;}
+			div.sticky { 
+	    		    position: -webkit-sticky;
+	    		    position: sticky;
+	    		    width: 100%;  
+	    	        height:25px;
+	    	        padding-top:3px;
+	    	        padding-bottom:4px;
+	    	        top:0px;
+	    		    border-bottom:1px solid lightgray;
+	    		    background-color:white;}
+	    	      
+			ul { font-size:18px; }
+			a:link {color:#006699; text-decoration:none;}     
+			a:visited {color:#006699; text-decoration:none;}
+            a:hover {color:#006699; text-decoration:underline;} 
+            a:active  {color:#006699; text-decoration:underline;} 
+            ul.breadcrumb { 
+                list-style: none;
+                background-color: white;}
+            ul.breadcrumb li {display: inline;}
+            ul.breadcrumb li+li:before {
+            	   margin:4px;
+               color:#006699; }
+            ul.breadcrumb li a {color:#006699;}
+            ul.pagination {
+                display: inline-block;
+                padding: 0;
+                margin: 0;}
+            ul.pagination li {display: inline;}
+            ul.pagination li a {
+                color: black;
+                float: left;
+                padding: 14px 56px;
+                text-decoration:none;
+                background-color:#F8F8F8;
+                border:1px solid #F8F8F8;
+                border-bottom:1px solid lightgray;}  
+            ul.pagination li a.link:not(.active) {color:#006699; text-decoration:none;}     
+			ul.pagination li a.visited:not(.active) {color:#006699; text-decoration:none;}
+            ul.pagination li a:hover:not(.active){color:black;border-bottom:3px solid #oddd ;} 
+            ul.pagination li a.active:not(.active)  {color:#006699; text-decoration:underline;}             
+            div.thumbnail {
+	            float:left;
+	            width:110px;
+	            height:90px;
+	            margin:5px;}
+            .button {
+                    text-align:center;  
+                    width:300px;
+                    height:35px;  
+    	               	margin-left:0px;
+    	    	            border:1px solid green; 
+                    border-radius:4px; 
+                    background-color:#4CAF50;
+                    color: white; 
+                    text-decoration: none;
+                    display: inline-block;
+                    font-family:Helvetica Neue;
+                    font-size: 16px; 
+                    font-weight:normal;
+                    cursor: pointer;}
+            .button:hover {
+                    background-color: #3e8e41;}
+
+            div.pagination:not(.active) {color:black; text-decoration:none;}                  
+            div.pagination:visited:not(.active) {color:black; text-decoration:none;}
+            div.pagination:hover:not(.active){color:black; background-color:lightgrey; text-decoration:none;} 
+            div.pagination:active:not(.active)  {color:black; background-color:lightgrey; text-decoration:none; }
+			           
+                       
+                                
+			 
+		</style>
+	</head>
+    <body>
+    	    <div  class="thumbnail" id="header" style="background-color:white;
+    	    text-align:left;
+    	    	width: 100%; 
+    	    	border: 1px solid white; 
+    	    margin:2px;
+    	    margin-right:400px; 
+    	    	margin-left:200px;
+    	    	margin-top:60px;
+    	    	float:left;">
+		<h1>GitLab.com</h1>
+		<p>GitLab.com offers free unlimited(private) repositories and unlimited 
+collaborators.
+			<ul>
+				<li><a href="https://gitlab.com/explore/projects/trending">Explore projects on GitLab.com</a>(no login needed)</li>
+				<li><a href="https://about.gitlab.com/pricing/">More information about Gitlab.com</a></li>
+				<li><a href="https://gitlab.com/gitlab-com/support-forum/issues">GitLab.com Support Forum</a></li>
+				<li><a href="https://about.gitlab.com">GitLab Homepage</a></li>
+			</ul>
+		</p>
+		<p>By signing up for and by signing in to this service you accept our:
+		<ul>
+			<li><a href="https://about.gitlab.com/privacy/">Privacy policy</a></li>
+			<li><a href="https://about.gitlab.com/terms/#gitlab_com">GitLab.com Terms.</a></li>
+		</ul>
+		</p></div>
+		<div  class="thumbnail" id="header" style="background-color:white; text-align:left;
+    	    	width:350px;
+    	    height:100%;
+    	    	border: 1px solid lightgray;
+    	    	border-top-left-radius:5px;
+        border-top-right-radius:5px;
+        border-bottom-left-radius:3px;
+        border-bottom-right-radius:3px;
+    	    	padding:0px;
+    	    	margin:0px;
+    	    	margin-right:250px; 
+    	    	margin-left:800px;
+    	    	margin-top:0px;
+    	    	float:left;">
+    	    	<ul class="pagination">
+        <li><a style="border-right-color:lightgray;">Sign in </a></li>
+        <li><a style="background-color:white; padding-bottom:3px solid blue;">Register</a></li>
+        </ul>
+	    <div id="header" style="width:300px; border:1px solid white; padding:20px; margin-top:5px; margin-bottom:10px;">
+        	<h2>Full name</h2>
+        <div id="header" style="text-align:left; width:300px; height:25px;  
+    	    	margin-left:0px; padding:3px; border:1px solid lightgrey; border-radius:2px;"></div>
+		<h2>Username</h2>
+        <div id="header" style="text-align:left; width:300px; height:25px;  
+    	    	margin-left:0px; padding:3px; border:1px solid lightgrey; border-radius:2px;"></div>
+		<h2>Email</h2> 
+        <div id="header" style="text-align:left; width:300px; height:25px;  
+    	    	margin-left:0px; padding:3px; border:1px solid lightgrey; border-radius:2px;"></div>
+		<h2>Email confirmation</h2> 
+        <div id="header" style="text-align:left; width:300px; height:25px;  
+    	    	margin-left:0px; padding:3px; border:1px solid lightgrey; border-radius:2px;"></div>
+		<h2>Password</h2> 
+        <div id="header" style="text-align:left; width:300px; height:25px;  
+    	    	margin-right:0px; padding:3px; border:1px solid lightgrey; border-radius:2px;"></div>
+    	    	<h3>Minimum length is 8 characters</h3>
+    	    	<div style="background-color:white; 
+    	    	width: 10px; 
+    	    height:10px;
+    	    	border: 1px solid lightgray;
+        border-bottom-left-radius:3px;
+        border-bottom-right-radius:3px;
+        border-top-left-radius:3px;
+        border-top-right-radius:3px;
+    	    	padding:1px;
+    	    	margin:5px;
+    	    margin-top:4px;
+    	     
+    	    	float:left;">
+    	    </div>
+    	    <h4> I accept the <a href="https://gitlab.com/-/users/terms">Terms of Service and Privacy Policy</a></h4>
+    	    <div style="background-color:white; 
+    	    	width: 10px; 
+    	    height:10px;
+    	    	border: 1px solid lightgray;
+        border-bottom-left-radius:3px;
+        border-bottom-right-radius:3px;
+         border-top-left-radius:3px;
+        border-top-right-radius:3px;
+    	    	padding:1px;
+    	    	margin:5px;
+    	    	margin-top:0px;
+    	    	float:left;">
+    	    </div><h4> I'd like to receive updates via email about GitLab.</h4>
+    	    <button class="button">Register</button>
+		</div>
+		</div>
+		
+        <div class="thumbnail" id="header" style="background-color:white; text-align:left;
+    	    	width:350px; 
+    	    height:210px;
+    	    	border: 1px solid lightgray;
+        border-bottom-left-radius:3px;
+        border-bottom-right-radius:3px;
+    	    	padding:0px;
+    	    	margin:0px;
+    	    	margin-right:200px; 
+    	    	margin-left:800px;
+    	    	margin-top:20px;">
+    	    <div id="header" style="width:400px; height:150px; border:1px solid white; padding:20px; margin-top:0px; margin-bottom:130px;">
+        <h2>Sign in with</h2>
+        <div id="header" class="pagination" style="text-align:left; width:130px; height:30px;  
+    	    	margin-left:0px; padding:3px; border:1px solid lightgrey; border-radius:3px; text-align:left; float:left; padding: 4px 6px; 
+    	    	div:hover{background-color:lightgrey}">
+        <img src="google.png" style="width:20px; height:20px; margin-left:8px; margin-top:6px;"><a style="text:10px Helvetica Neue black float:left; margin:auto; margin-left:15px;">Google</a></div>
+        <div id="header" class="pagination" style="text-align:left; width:130px; height:30px;  
+    	    	margin-left:15px; padding:3px; border:1px solid lightgrey; border-radius:3px; text-align:left; float:left; padding: 4px 6px;">
+        <img src="twitter.png" style="width:20px; height:20px; margin-left:8px; margin-top:6px;"><a style="text:10px Helvetica Neue black float:left; margin:auto; margin-left:15px;">Twitter</a></div>
+        <div id="header" class="pagination" style="text-align:left; width:130px; height:30px;  
+    	    	margin-left:0px; margin-top:15px; padding:3px; border:1px solid lightgrey; border-radius:3px; text-align:left; float:left; padding: 4px 6px;">
+        <img src="github.png" style="width:20px; height:20px; margin-left:8px; margin-top:6px;"><a style="text:10px Helvetica Neue black float:left; margin:auto; margin-left:15px;">GitHub</a></div>
+        <div id="header" class="pagination" style="text-align:left; width:130px; height:30px;  
+    	    	margin-left:15px; margin-top:15px; padding:3px; border:1px solid lightgrey; border-radius:3px; text-align:left; float:left; padding: 4px 6px;">
+        <img src="bitbucket.png" style="width:20px; height:20px; margin-left:8px; margin-top:6px;"><a style="text:10px Helvetica Neue black float:left; margin:auto; margin-left:15px;">Bitbucket</a></div>
+        <div style="margin:0px; padding:0px; padding-top:15px; text-align:left; clear:both;">
+        	<div style="background-color:white; 
+    	    	width: 10px; 
+    	    height:10px;
+    	    	border: 1px solid lightgray;
+        border-bottom-left-radius:3px;
+        border-bottom-right-radius:3px;
+        border-top-left-radius:3px;
+        border-top-right-radius:3px;
+    	    	padding:1px;
+    	    	margin:5px;
+    	    margin-top:4px;
+    	  	float:left;">
+    	    </div>
+    	    <h4 style="margin-top:5px;">Remember me</h4></div>
+    	    
+    	    
+    	    	
+        </div>
+        </div>
+		<div  id="header" style="width: 100%;
+	    	    height:35px;
+	    	    border-top:1px solid lightgray;
+	    		background-color:white;
+	    	    padding-left:140px;
+	    	    padding-bottom:15px;
+	    	    clear:both;">
+	    	<ul class="breadcrumb" style="font-family:Helvetica Neue;font-size:14px;">
+		 	<li><a href="https://gitlab.com/explore">Explore&nbsp&nbsp&nbsp</a></li>
+		 	<li><a href="https://gitlab.com/help">Help&nbsp&nbsp&nbsp</a></li>
+		 	<li><a href="https://about.gitlab.com">About GitLab</a></li>
+		 </ul>
+		</div> 
+
+		
+		
+	</body>
+</html>

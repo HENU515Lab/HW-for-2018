@@ -1,0 +1,67 @@
+#lead{
+	padding-left: 100px;
+	padding-right: 100px;
+	position: fixed;
+	top: 0px;                                /*导航栏*/
+	float: ;
+	width: 1400px;
+	background-color: white;
+	z-index: 99;
+}
+#lead img{
+	width: 40px;                                /*设置导航栏图标大小*/
+}
+#lead span{
+	font-size: 25px;
+	color: #c4c4c4;
+	position:relative;                       /*调整文字位置适应图片*/
+	bottom: 8px;
+}
+#lead>a{
+	color: #c4c4c4;
+	text-decoration: none;                           /*去除超链接下划线*/
+}
+.float1{
+	float: right;                
+	
+}                                                         /*导航栏左右布局*/
+.float2{
+	float: left;
+}
+.drop-down{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 90%;                                       /*下拉动画部分字体*/
+	color: #c4c4c4;
+}
+#find-out{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#sign-in{
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 90%;
+	color:#544388 ;                                     
+	position:relative;               
+	bottom: 3px;
+	font-weight: bold;
+	
+}
+#register{
+	padding-left: 10px;
+	padding-right: 100px;
+	color:#544388 ;
+	position:relative;
+	bottom: 6px;
+	font-weight: bold;
+}
+#sign-in>a{
+	text-decoration: none;
+}
+#register>a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
